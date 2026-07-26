@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { ArrowRight, BookOpen, Check, ChevronDown, Copy, Heart, Search, Sparkles, X } from 'lucide-react'
 import systems from './data/systems.json'
+import RunnerPanel from './components/RunnerPanel.jsx'
 import './App.css'
 
 const ALL = 'すべて'
@@ -8,9 +9,10 @@ const storageKey = 'yuniba.workspace'
 
 const loadWorkspace = () => {
   try {
-    return JSON.parse(localStorage.getItem(storageKey)) || { favorites: [], statuses: {} }
+    const saved = JSON.parse(localStorage.getItem(storageKey)) || {}
+    return { favorites: saved.favorites || [], statuses: saved.statuses || {}, histories: saved.histories || {} }
   } catch {
-    return { favorites: [], statuses: {} }
+    return { favorites: [], statuses: {}, histories: {} }
   }
 }
 
@@ -50,6 +52,15 @@ function App() {
   const updateStatus = (id, status) => setWorkspace((current) => ({
     ...current,
     statuses: { ...current.statuses, [id]: status },
+  }))
+
+  const saveRun = (run) => setWorkspace((current) => ({
+    ...current,
+    statuses: { ...current.statuses, [run.systemId]: 'doing' },
+    histories: {
+      ...current.histories,
+      [run.systemId]: [run, ...(current.histories[run.systemId] || [])].slice(0, 20),
+    },
   }))
 
   const clearFilters = () => {
@@ -124,6 +135,7 @@ function App() {
         <p className="number">SYSTEM #{String(selected.id).padStart(3, '0')}</p><p className="industry">{selected.industry} · {selected.category}</p><h2>{selected.title}</h2>
         <Detail label="現場の課題" text={selected.challenge} /><Detail label="AIでこう自動化" text={selected.solution} accent /><Detail label="期待できる効果" text={selected.effect} />
         <div className="tool-list"><b>連携ツール</b>{selected.tools.map((item) => <span key={item}>{item}</span>)}</div>
+        <RunnerPanel system={selected} history={workspace.histories[selected.id] || []} onRun={saveRun} />
         <div className="panel-actions"><button className="copy-button" onClick={() => copyBlueprint(selected)}>{copied ? <Check size={18} /> : <Copy size={18} />}{copied ? 'コピーしました' : 'AI実装用の設計図をコピー'}</button><select value={workspace.statuses[selected.id] || ''} onChange={(event) => updateStatus(selected.id, event.target.value)}><option value="">未着手</option><option value="doing">進行中</option><option value="done">実装済み</option></select></div>
       </aside></div>}
     </div>
