@@ -2,6 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import { executeSystem, getEngine } from '../src/lib/systemEngine.js'
+import { executeBatchSystem, parseBatchFile } from '../src/lib/batchEngine.js'
 
 const systems = JSON.parse(await readFile(new URL('../src/data/systems.json', import.meta.url), 'utf8'))
 
@@ -34,4 +35,20 @@ test('外部連携の必要性を実行結果へ記録する', () => {
   assert.ok(externalSystem)
   const result = executeSystem({ system: externalSystem, objective: 'CRMテスト', input: '顧客A' })
   assert.equal(result.externalRequired, true)
+})
+
+test('CSVを複数レコードとして安全に解析する', () => {
+  const records = parseBatchFile({ name: 'customers.csv', text: '氏名,会社,備考\n山田,ABC,"重要, 要確認"\n佐藤,XYZ,通常' })
+  assert.equal(records.length, 2)
+  assert.match(records[0], /重要, 要確認/)
+  assert.match(records[1], /会社: XYZ/)
+})
+
+test('JSON配列を一括実行して一つの成果物へまとめる', () => {
+  const records = parseBatchFile({ name: 'items.json', text: '[{"商品":"A"},{"商品":"B"}]' })
+  const result = executeBatchSystem({ system: systems[0], records, objective: '一括テスト', sourceName: 'items.json' })
+  assert.equal(result.batchCount, 2)
+  assert.match(result.output, /商品: A/)
+  assert.match(result.output, /商品: B/)
+  assert.match(result.output, /外部送信: なし/)
 })
