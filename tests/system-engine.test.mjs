@@ -23,6 +23,12 @@ test('入力データを成果物へ反映する', () => {
   assert.match(result.output, /機密テスト/)
 })
 
+test('入力を省略せず成果物へ残す', () => {
+  const values = ['顧客A', '期限: 8月末', '担当: 営業部']
+  const result = executeSystem({ system: systems[10], objective: '入力保持テスト', input: values.join('\n') })
+  for (const value of values) assert.ok(result.output.includes(value))
+})
+
 test('外部連携の必要性を実行結果へ記録する', () => {
   const externalSystem = systems.find((system) => system.tools.includes('Salesforce'))
   assert.ok(externalSystem)
