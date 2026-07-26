@@ -1,0 +1,4462 @@
+[
+  {
+    "id": 1,
+    "slug": "system-001",
+    "industry": "その他",
+    "category": "エージェント設計・ハーネス",
+    "title": "コンテンツ担当がSEO・SNS・ブログ執筆をClaude Codeで並列処理",
+    "challenge": "分析・SNS連携・ブログ執筆など複数タスクを順番に対応し、AIの出力待ちで時間をロスしやすい。",
+    "solution": "Claude Codeのスレッドを分けて複数セッションを同時起動し、異なるタスクを並列で進行させる。",
+    "effect": "複数タスクの同時進行により、実質的な作業量が増加。",
+    "purposes": [
+      "SEO・ブログ"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 2,
+    "slug": "system-002",
+    "industry": "その他",
+    "category": "エージェント設計・ハーネス",
+    "title": "SNS運用担当がSkewsファイルでClaude Codeの投稿ルールを標準化",
+    "challenge": "SNS投稿や定型業務のたびに毎回細かい指示を書き直す手間が積み重なっている。",
+    "solution": "Claude Codeのルール定義ファイル（Skews）に出力フォーマットやワークフローを記述し、同じ品質の処理を繰り返し自動実行させる。",
+    "effect": "一度整備したルールで何度でも同品質のアウトプットを再現できるようになった。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 3,
+    "slug": "system-003",
+    "industry": "その他",
+    "category": "エージェント設計・ハーネス",
+    "title": "SNS担当がA2A構成でClaude Codeに投稿制作を一括自動化",
+    "challenge": "SNS案件獲得のためにリサーチから台本・画像・スケジュールまで多工程が発生し、工数がかかる。",
+    "solution": "Claude Codeに2行の指示を与えるだけで、リサーチ→ネタ選定→台本→画像プロンプト→投稿スケジュールまでサブエージェントが連携して自律処理させる。",
+    "effect": "多工程のSNS制作フローをほぼ自動化し、ひとりでの運用が可能に。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 4,
+    "slug": "system-004",
+    "industry": "その他",
+    "category": "Obsidian・第二の脳・コンテキスト",
+    "title": "メディア運営者がObsidian×Claude CodeでSEO記事・X投稿を自",
+    "challenge": "蓄積した知識や議事録がバラバラで、コンテンツ制作のたびに情報を探し直す手間が生じる。",
+    "solution": "ObsidianにナレッジやボイスメモをためてClaude Codeのコンテキストとして活用し、SEO記事・X投稿・動画台本をワンクリックで自動生成・投稿する仕組みを構築する。",
+    "effect": "知識が増えるほどアウトプットの質も上がる自己強化型のコンテンツ制作体制が整った。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 5,
+    "slug": "system-005",
+    "industry": "その他",
+    "category": "Obsidian・第二の脳・コンテキスト",
+    "title": "個人事業主がObsidian×Claude Codeで思考を自動出力できる環境を",
+    "challenge": "議事録やボイスメモが蓄積されても活用されず、毎回ゼロからコンテンツや文章を作り直している。",
+    "solution": "思考・議事録・判断基準をObsidianに継続的に蓄積し、Claude Codeがそれをコンテキストとして参照することで自分の思考をトレースしたアウトプットを生成させる。",
+    "effect": "ナレッジが増えるほどAI出力の精度も高まる自己強化型の仕組みが完成した。",
+    "purposes": [
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 6,
+    "slug": "system-006",
+    "industry": "その他",
+    "category": "Obsidian・第二の脳・コンテキスト",
+    "title": "コンテンツ事業者がNote・XをClaude Codeで自動投稿",
+    "challenge": "記事やSNS投稿の量産・継続投稿に膨大な手作業が必要で、担当者の負荷が高い。",
+    "solution": "ObsidianのナレッジをClaude CodeとOpen Router・Google APIで連携し、記事生成から投稿・スケジューリングまでを自動化するパイプラインを構築した。",
+    "effect": "Note3,000記事自動投稿で77万人流入・1,800万円売上、X運用でフォロワー4.2万人・LINEリスト1.3万人",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Obsidian"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 7,
+    "slug": "system-007",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "SNS担当者が2行の指示で複数媒体の投稿を一括生成",
+    "challenge": "Instagram・X・YouTubeなど媒体ごとに文体や形式を変えた投稿作成に手間がかかる。",
+    "solution": "投稿ルール・フォーマット・スケジュールをSkewsに記述し、Claude Codeがテーマから各媒体向けドラフト生成・採点・スケジュール登録まで自動処理するシステムを構築した。",
+    "effect": "2行程度の指示で18本分の投稿を一括生成でき、SNS運用の制作工数を大幅に削減。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 8,
+    "slug": "system-008",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "広告担当が短い指示だけでリスティング運用を自動構築",
+    "challenge": "リスティング広告の仕様書・キーワード設計・入札戦略の作成に専門知識と多くの時間が必要。",
+    "solution": "「リスティング広告を自動運営して」という短い指示をClaude Codeに与えるだけで、仕様書・変数名・キーワード設計・入札戦略・レポート形式までAIが補完して構築した。",
+    "effect": "専門的な指示がなくても広告運用の設計が自動完成し、準備工数を大幅に削減。",
+    "purposes": [
+      "広告運用",
+      "SNS運用"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 9,
+    "slug": "system-009",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "個人運営者がSNS・ブログ・動画をClaude Codeで一元化",
+    "challenge": "一人で動画・SNS・ブログを掛け持ちすると更新が追いつかず発信が止まりがち。",
+    "solution": "Claude CodeとObsidianを連携し、1つの素材から記事生成・SEOタイトル付与・画像生成・自動投稿まで一気通貫で実行する仕組みを構築。",
+    "effect": "XフォロワーやLINE登録者が積み上がり、継続的な売上獲得につながった。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Obsidian"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 10,
+    "slug": "system-010",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "コンテンツ発信者がSEO記事・SNS投稿をClaude Codeで量産",
+    "challenge": "記事作成からSNS投稿まで手作業が多く、コンテンツ量を増やしにくい。",
+    "solution": "ObsidianのノウハウとClaude Codeを連携し、トレンドリサーチ・台本・画像・動画・字幕・自動投稿までをSkillsでワンクリック実行。",
+    "effect": "1年間で77万アクセス・1,800万円の売上実績を達成した。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "Remotion/動画"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 11,
+    "slug": "system-011",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "既存事業のコスト削減と付加価値向上をClaude Codeで実現",
+    "challenge": "外注費や雑務が多く、新規事業や本来業務に使える時間が慢性的に不足している。",
+    "solution": "Claude Codeで制作・事務の自動化を進め、外注費の削減と雑務時間の短縮を同時に実現。",
+    "effect": "浮いたコストと時間を新規事業へ再投資できるようになった。",
+    "purposes": [
+      "CS・サポート"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 12,
+    "slug": "system-012",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "SNS運用者が投稿用画像生成をClaude Code経由で自動化",
+    "challenge": "SNS投稿や資料ごとに画像を手作りする作業が煩雑で時間を取られる。",
+    "solution": "Claude Codeがfal.ai APIを呼び出して画像を生成し、ローカル保存からHTMLやSNS投稿への組み込みまで自律実行。",
+    "effect": "画像準備の手作業がなくなり、コンテンツ制作の工程が短縮された。",
+    "purposes": [
+      "MEO・店舗集客",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "fal.ai/gpt-image",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 13,
+    "slug": "system-013",
+    "industry": "その他",
+    "category": "企業導入・セキュリティ・権限",
+    "title": "企業担当者がAIへの情報入力リスクを3段階で整理・判断",
+    "challenge": "Claude CodeやChatGPTに業務データを入力してよいか判断基準がなく、活用が進まない。",
+    "solution": "「ローカル保存リスク・クラウドサービスと同等のリスク・自律的な外部送信リスク」の3段階で整理し、既存クラウドツールと同じ基準で運用ルールを策定。",
+    "effect": "リスク認識が整理され、AI活用に向けた社内判断がしやすくなった。",
+    "purposes": [
+      "評価・育成",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Google Workspace/GAS"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 14,
+    "slug": "system-014",
+    "industry": "その他",
+    "category": "【技術】Claude Code操作・コマンド（/goal・スラッシュ等）",
+    "title": "実務担当者がClaude Code環境を最適構成に整備",
+    "challenge": "複数あるClaude Codeの動作形態から、どれを選ぶべきか判断できない。",
+    "solution": "VS CodeのターミナルからClaude Codeを起動し、ファイル操作・プログラム実行・成果物確認を一画面で完結させる構成を採用した。",
+    "effect": "ファイル操作を伴う業務自動化をスムーズに実行できるようになった。",
+    "purposes": [
+      "評価・育成",
+      "MEO・店舗集客",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 15,
+    "slug": "system-015",
+    "industry": "その他",
+    "category": "【技術】Claude Code操作・コマンド（/goal・スラッシュ等）",
+    "title": "macOS環境でClaude Codeの画面操作機能を有効化",
+    "challenge": "AIに画面操作を任せたいが、対応条件や設定手順が分からず使えていない。",
+    "solution": "macOS上のClaude Code CLIで対応プランを確認し、起動オプションでComputer Useを有効化して画面操作を自動実行させた。",
+    "effect": "手作業だった画面操作をAIに委任できるようになった。",
+    "purposes": [
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 16,
+    "slug": "system-016",
+    "industry": "その他",
+    "category": "【技術】Claude Code操作・コマンド（/goal・スラッシュ等）",
+    "title": "エージェントに目標だけ渡して調査・生成を自律実行",
+    "challenge": "複数ステップの調査や資料作成を毎回手動で指示しており、手間がかかる。",
+    "solution": "Claude Codeの/goalコマンドでゴールを設定し、ウェブ検索・リスト生成・構成案作成をAIが自己評価しながら自律実行させた。",
+    "effect": "指示後は完了通知を待つだけで成果物が得られるようになった。",
+    "purposes": [
+      "評価・育成",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 17,
+    "slug": "system-017",
+    "industry": "その他",
+    "category": "【技術】Claude Code操作・コマンド（/goal・スラッシュ等）",
+    "title": "複数業務をClaude Codeの並列セッションで同時処理",
+    "challenge": "AIへの指示と応答待ちを繰り返すため、一度に一つの作業しか進められない。",
+    "solution": "SNS分析・ブログ生成・画像作成など複数タスクを別々のClaude Codeセッションに同時投入し、バックグラウンドで並列実行させた。",
+    "effect": "待機時間がなくなり、複数業務を同時に進められるようになった。",
+    "purposes": [
+      "SEO・ブログ"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 18,
+    "slug": "system-018",
+    "industry": "その他",
+    "category": "【技術】Claude Code操作・コマンド（/goal・スラッシュ等）",
+    "title": "Claude Codeがエラーを自己修正しルールを自動更新",
+    "challenge": "ツール実行中のエラー対応と再発防止のたびに手作業で設定を修正している。",
+    "solution": "エラーログをClaude Codeに貼り付けるだけで自動デバッグさせ、同時にSkillsファイルへの再発防止ルール追記も指示した。",
+    "effect": "一度の指摘で類似エラーの再発防止が複数同時に実装された。",
+    "purposes": [],
+    "tools": [
+      "Claude Code",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 19,
+    "slug": "system-019",
+    "industry": "その他",
+    "category": "【技術】.claude構成（CLAUDE.md/Skills/rules/agents）",
+    "title": "複数エージェントをClaude Codeで役職別に定義",
+    "challenge": "AIへの指示が毎回バラバラで、役割分担や引き継ぎがうまく機能しない。",
+    "solution": "`.claude`配下にCLAUDE.md・Skills・rules・agentsを整備し、役職ごとの責務・権限・ルールをClaude Codeに永続保持させる。",
+    "effect": "複数エージェントが役職に応じた自律判断と引き継ぎを実現。",
+    "purposes": [
+      "経理・バックオフィス",
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 20,
+    "slug": "system-020",
+    "industry": "その他",
+    "category": "【技術】.claude構成（CLAUDE.md/Skills/rules/agents）",
+    "title": "SNS投稿・経費仕訳などをスキルでワンクリック実行",
+    "challenge": "繰り返し使う処理のたびに同じプロンプトを書き直す手間が発生している。",
+    "solution": "`.claude/skills`にSNS投稿・経費仕訳・記事生成などの手順を登録し、Claude Codeからコマンド1つで呼び出せるようにする。",
+    "effect": "プログラミング不要で定型業務をワンクリックで実行できるように。",
+    "purposes": [
+      "経理・バックオフィス",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 21,
+    "slug": "system-021",
+    "industry": "その他",
+    "category": "【技術】.claude構成（CLAUDE.md/Skills/rules/agents）",
+    "title": "LP複数パターンをClaude Code Skillsで自動生成",
+    "challenge": "LPのデザインパターンを複数作るたびに同じ仕様をAIに入力し直す手間がある。",
+    "solution": "Claude CodeのSkillsにデザイン仕様を登録し、Obsidianの自社情報を参照させてワンクリックで複数パターンのLPを生成する。",
+    "effect": "毎回のプロンプト入力が不要になり、複数パターンを即時出力。",
+    "purposes": [
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 22,
+    "slug": "system-022",
+    "industry": "その他",
+    "category": "【技術】.claude構成（CLAUDE.md/Skills/rules/agents）",
+    "title": "Web制作会社がLP品質チェックループをClaude Codeで自動化",
+    "challenge": "デザイン品質のチェックと修正を人手で繰り返すと工数と時間がかかりすぎる。",
+    "solution": "Skillsに90点基準の品質ルールを定義し、agentsで自動採点→修正→承認のループをClaude Codeに組み込む。",
+    "effect": "ヒアリングからWordPressデプロイまで1コマンドで自律実行。",
+    "purposes": [
+      "SEO・ブログ",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "WordPress"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 23,
+    "slug": "system-023",
+    "industry": "その他",
+    "category": "【技術】.claude構成（CLAUDE.md/Skills/rules/agents）",
+    "title": "Obsidianの蓄積情報からClaude Codeがコンテンツ生成",
+    "challenge": "日々の議事録やメモがObsidianに蓄積されているが、コンテンツ制作にうまく活かせていない。",
+    "solution": "ObsidianのVaultをClaude Codeから参照し、Skillsに思考スタイルを反映させて記事・SNS投稿・動画スクリプトを生成する。",
+    "effect": "本人の思考スタイルに沿ったコンテンツをそのまま出力できるように。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 24,
+    "slug": "system-024",
+    "industry": "その他",
+    "category": "【技術】MCP接続・設定の具体手順",
+    "title": "営業部門がSalesforce操作をClaude CodeとMCPで自動化",
+    "challenge": "Salesforce上のリード登録やレポート追加など繰り返し作業に多くの時間が取られる。",
+    "solution": "Claude CodeにSalesforce MCPを接続し、自然言語の指示だけでレコード登録・レポート生成・ダッシュボード更新を自律実行する構成を構築。",
+    "effect": "Salesforce画面を開かずにCRM操作が完結し、手作業の工数を削減。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 25,
+    "slug": "system-025",
+    "industry": "その他",
+    "category": "【技術】MCP接続・設定の具体手順",
+    "title": "SNS担当者がX自動投稿をClaude Codeで仕組み化",
+    "challenge": "X（Twitter）への定期投稿のたびにAPIの設定や投稿作業に手間がかかる。",
+    "solution": "Claude CodeにX API連携システムの構築を指示し、OAuthトークン取得から投稿内容生成・画像作成・投稿確認までのファイル群を自動生成。",
+    "effect": "一連の投稿フローが自動化され、SNS運用の手作業を大幅に削減。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 26,
+    "slug": "system-026",
+    "industry": "その他",
+    "category": "【技術】MCP接続・設定の具体手順",
+    "title": "営業チームがHubSpot・kintoneをClaude Code MCPでCR",
+    "challenge": "GmailやChatworkの顧客情報を手動でCRMに転記する作業が営業の負担になっている。",
+    "solution": "Claude CodeにHubSpot・kintone MCPを接続し、メール・チャットから顧客情報を自動取得してCRMへ登録、ダッシュボードも自然言語指示で生成。",
+    "effect": "顧客情報の手動転記がなくなりCRM入力漏れを防止。",
+    "purposes": [
+      "CS・サポート",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "HubSpot",
+      "kintone",
+      "Google Workspace/GAS",
+      "Chatwork/Slack",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 27,
+    "slug": "system-027",
+    "industry": "その他",
+    "category": "【技術】業務システム実装の具体（会計/CRM/CAD/SNS）",
+    "title": "営業部門が名刺データをCRMへ自動連携・スコアリング",
+    "challenge": "名刺情報の入力・分類・メール配信を手作業で行い商機を逃しやすい。",
+    "solution": "Claude CodeがOCR取り込み→データ正規化→スコアリング→Salesforce登録→業界別メール配信→売上シミュレーターまでのパイプラインを自律実装する。",
+    "effect": "名刺取得からSランク顧客への緊急通知まで自動で一気通貫に処理できる。",
+    "purposes": [
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "スクレイピング・調査",
+      "営業・CRM",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "Notion",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 28,
+    "slug": "system-028",
+    "industry": "その他",
+    "category": "【技術】Obsidian・コンテキスト連携の技術",
+    "title": "コンテンツ制作者がObsidianの思考ログをClaude Codeで活用",
+    "challenge": "記事やSNS投稿が自分らしい文体にならず、毎回ゼロから考え直す手間がかかる。",
+    "solution": "ObsidianのメモをMCP経由でClaude Codeに読み込ませ、ユーザーの思考スタイルをコンテキストとして自動注入する。",
+    "effect": "記事・SNS・動画スクリプトが本人の語り口を反映した出力に改善。",
+    "purposes": [
+      "MEO・店舗集客",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 29,
+    "slug": "system-029",
+    "industry": "その他",
+    "category": "【技術】Obsidian・コンテキスト連携の技術",
+    "title": "ブロガーがObsidian×Claude CodeでSEO記事を自動生成・投稿",
+    "challenge": "ブログ記事の構成・執筆・投稿を手作業で行うと時間とコストがかかりすぎる。",
+    "solution": "ObsidianのノートをClaude Codeが読み込み、SEO記事生成からWordPress自動投稿までのパイプラインを構築する。",
+    "effect": "大量記事の一括投稿と継続的な流入獲得を自動化。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "WordPress"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 30,
+    "slug": "system-030",
+    "industry": "その他",
+    "category": "【技術】Obsidian・コンテキスト連携の技術",
+    "title": "情報発信者がNote・X投稿をClaude Code×Obsidianで自動化",
+    "challenge": "蓄積した知見をNote・Xへ継続投稿するには、毎回の編集・投稿作業が負担になる。",
+    "solution": "Obsidianの企画ノートをコンテキストにSEO記事・X文・Noteサムネ付き記事を生成し、APIで自動投稿するスクリプトをClaude Codeで作成する。",
+    "effect": "短期間で大量の記事投稿と見込み顧客獲得を実現。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 31,
+    "slug": "system-031",
+    "industry": "その他",
+    "category": "【技術】Obsidian・コンテキスト連携の技術",
+    "title": "クリエイターがObsidian×Claude Codeでコンテンツを一元量産",
+    "challenge": "ブログ・YouTube・SNS向けコンテンツを個別に制作すると工数が膨大になる。",
+    "solution": "ObsidianのVaultをMCPで読み取り、記事・動画スクリプト・X投稿・Instagram画像を同一ソースから並列生成するパイプラインをClaude Codeで構築する。",
+    "effect": "複数メディア向けコンテンツの制作と一括投稿を自動化。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "Remotion/動画",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 32,
+    "slug": "system-032",
+    "industry": "その他",
+    "category": "【技術】Obsidian・コンテキスト連携の技術",
+    "title": "発信者がObsidianノウハウをClaude Codeで動画・音声に自動変換",
+    "challenge": "文章で蓄積したノウハウを動画コンテンツにする作業は工程が多く手が止まりやすい。",
+    "solution": "ObsidianノートをClaude Codeに読み込ませ、Remotion APIでスクリプト生成・AI音声合成・動画レンダリングまでを一括自動化する。",
+    "effect": "動画生成からNote・X自動投稿まで一連の作業をワンパイプライン化。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "Remotion/動画"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 33,
+    "slug": "system-033",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "動画クリエイターがClaude Code×ffmpegで動画制作を全自動化",
+    "challenge": "音声・画像・映像の素材生成から動画書き出し・投稿まで手作業では時間がかかる。",
+    "solution": "ObsidianノートをコンテキストにClaude Codeが各APIを順次呼び出し、ffmpegで素材を結合してYouTube・X・Noteへ自動投稿するスクリプトを生成する。",
+    "effect": "自然言語の指示だけで動画生成から投稿までを全自動で完結。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "fal.ai/gpt-image"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 34,
+    "slug": "system-034",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "経理部門が入金消し込み〜財務諸表反映をClaude Codeで自動化",
+    "challenge": "入金確認・仕訳・財務諸表反映を手作業でこなし、経理担当者の工数が膨大になりがち。",
+    "solution": "Claude Codeに2行の指示を与えるだけで、入金データ取り込みからスコアマッチング・仕訳生成・freee連携・BS/PL反映まで動作するシステムを自動生成した。",
+    "effect": "未消し込み債権アラートや高リスク仕訳の警告も含め、入金処理の大部分を無人化。",
+    "purposes": [
+      "経理・バックオフィス",
+      "RPA・業務自動化",
+      "資金繰り・融資・補助金"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 35,
+    "slug": "system-035",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "ブログ運営者がObsidianとClaude CodeでSEO記事〜AI動画を一",
+    "challenge": "SEO記事・SNS投稿・動画をそれぞれ別々に制作する工数が大きく、量産が困難だった。",
+    "solution": "ObsidianのナレッジをコンテキストとしてClaude Codeに注入し、記事生成・画像生成・音声・映像化・WordPress自動投稿までを一連のスクリプトとして構築した。",
+    "effect": "3,000記事の自動投稿・年間77万人のオーガニック流入・1,800万円売上の実績につながった。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "WordPress",
+      "fal.ai/gpt-image",
+      "Remotion/動画"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 36,
+    "slug": "system-036",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "メディア運営チームがClaude CodeとObsidianでブログ業務をマルチ",
+    "challenge": "記事の企画・リサーチ・執筆・投稿を少人数でまわすには工程管理の手間が大きかった。",
+    "solution": "Claude Codeに企画部・リサーチ部などのサブエージェントを定義し、社長エージェントの指示で各エージェントが連鎖的に動き、ObsidianをナレッジのSharedストアとして",
+    "effect": "企画から投稿までの工程を人手なしで連続実行できる自律ブログ運営体制を実現。",
+    "purposes": [
+      "SEO・ブログ",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 37,
+    "slug": "system-037",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "広告運用担当者がバナー制作〜配信スケジュールをClaude Codeで完全自動化",
+    "challenge": "バナー広告は競合調査・コピー作成・画像生成・配信設定まで工程が多く、担当者の負担が大きかった。",
+    "solution": "Claude Codeに2行の概要指示を与えると、市場データ取得・競合分析・キャッチコピー生成・画像生成・スコアリング承認・配信スケジュール設定・Slackレポート送信まで自動で構",
+    "effect": "バナー広告制作から配信管理までの一連の作業を無人化できた。",
+    "purposes": [
+      "SEO・ブログ",
+      "広告運用",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Chatwork/Slack"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 38,
+    "slug": "system-038",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "CS担当者が受信メールの分類〜自動返信をClaude CodeとGmail MC",
+    "challenge": "問い合わせメールの仕分けと初回返信に毎日多くの時間を取られ、対応漏れも起きやすかった。",
+    "solution": "Gmail MCPをClaude Codeに接続し、メールをカテゴリと分類スコアで自動判定して対応テンプレートを選択・自動送信する仕様をSkillsに定義した。",
+    "effect": "受信から返信までを無人処理できるメール対応体制を構築した。",
+    "purposes": [
+      "CS・サポート"
+    ],
+    "tools": [
+      "Claude Code",
+      "Google Workspace/GAS",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 39,
+    "slug": "system-039",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "SNS運用者がX投稿の効果測定〜プロンプト改善ループをClaude Codeで自",
+    "challenge": "X投稿のパフォーマンスを分析して次の投稿内容に反映する作業は手間がかかり継続が難しかった。",
+    "solution": "X APIで取得したインプレッション・エンゲージメントデータをClaude Codeが分析し、A/Bテスト結果を自然言語でまとめて次バッチの投稿スタイル指示を自動更新するループを構",
+    "effect": "49万インプレッション・フォロワー3.4万人増の実績につながった。",
+    "purposes": [
+      "SNS運用",
+      "CS・サポート",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 40,
+    "slug": "system-040",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "業務自動化レベルをClaude Codeで段階的に実装",
+    "challenge": "チャット補助から完全自動化まで、どの段階を目指すか判断基準がなく実装方針が曖昧になる。",
+    "solution": "Claude Codeでレベル3（人間チェックあり）からA2A構成のレベル4（エージェント間で検証・承認を自動化）へ段階的に移行する設計を取る。",
+    "effect": "現状実用段階のレベル4で、人間の介在を排除した自律運用を実現。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 41,
+    "slug": "system-041",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "コンテンツ制作をA2Aエージェント協調で自動化",
+    "challenge": "記事・SNS投稿の企画から執筆・SEO・拡散まで工程が多く一人でこなすには限界がある。",
+    "solution": "Claude CodeのA2A構成で企画・リサーチ・執筆・ファクトチェック・SNS展開を担うサブエージェントをパイプライン連携させる。",
+    "effect": "各工程を専門エージェントが分担し、コンテンツを一気通貫で完成。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 42,
+    "slug": "system-042",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "バーチャルオフィス階層をClaude Codeで構築",
+    "challenge": "一人で複数の業務を並列処理したいが、タスク管理と実行を同時にこなすのが難しい。",
+    "solution": "Claude Codeで社長→企画統括→各部門サブエージェントの階層をagentsファイルで定義し、/goalコマンドで自律的に役割分担・並列実行させる。",
+    "effect": "一人でも複数業務を並列自動実行できる体制を実現。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 43,
+    "slug": "system-043",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "完全自律A2A構成をClaude Codeで実装",
+    "challenge": "自動化システムにバグが出るたびに人間が修正指示を出す手間が残り真の自動化に届かない。",
+    "solution": "Claude Codeでメタエージェントを定義し、実行エージェントの出力異常を検知して修正エージェントが自動対応するレベル4構成を実装する。",
+    "effect": "デバッグ・修正・承認ループを自動化し、人間の介在余地をなくす。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 44,
+    "slug": "system-044",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "Note・X投稿を多層エージェントでClaude Code自動化",
+    "challenge": "ブログ・SNS投稿の企画から画像生成・公開まで工程が多く担当者の工数が膨大になる。",
+    "solution": "Claude Codeで社長役オーケストレーターが企画・リサーチ・執筆・デザイン各サブエージェントへ非同期並列でタスクを分配し連携させる。",
+    "effect": "Note投稿・X投稿・画像生成まで一気通貫で自動完了。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 45,
+    "slug": "system-045",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "エージェントチームの役割定義をClaude Codeで設計",
+    "challenge": "複数の自動化タスクを同時に回したいが、役割分担とエージェント間の連携設計が複雑で手が出ない。",
+    "solution": "Claude Codeの.claude/agentsファイルにロールと専門能力を定義し、オーケストレーターがA2A通信でウェブ検索・ファイル操作を並列実行させる。",
+    "effect": "監視用メタエージェントを加えることで人手不要の自律チーム構成を実現。",
+    "purposes": [
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 46,
+    "slug": "system-046",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "企画・リサーチ部門をClaude CodeのSkillsで階層化",
+    "challenge": "複数部門への指示だしと成果物のとりまとめに手間がかかり、一人での管理が限界になりやすい。",
+    "solution": "`.claude/skills/`に役割別Skillsファイルを作成し、親エージェントが各サブエージェントにタスクを分配するA2A構造を構築する。",
+    "effect": "一人が社長役として複数エージェントを束ね、並列で成果物を得られる。",
+    "purposes": [
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 47,
+    "slug": "system-047",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "メール・SNS・会計をA2A構成でClaude Codeが自律管理",
+    "challenge": "複数の定型業務を人手でハシゴしており、対応漏れやタスク切り替えコストが発生しやすい。",
+    "solution": "Claude Codeでメインエージェントがサブエージェントにタスクを委譲し、Skillsにルールを定義して完了報告まで自律実行させる。",
+    "effect": "人間の介在を最小化し、複数業務を自律的に処理できる体制を実現。",
+    "purposes": [
+      "経理・バックオフィス",
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 48,
+    "slug": "system-048",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "ブログ・リサーチ等をClaude Codeの並列セッションで量産",
+    "challenge": "ブログ生成やリサーチなど独立したタスクが複数あり、一つずつ処理すると完了まで時間がかかる。",
+    "solution": "Claude Codeで独立したゴールを持つセッションを複数同時起動し、完了後はSkillsファイルにルールを書き出して再利用可能にする。",
+    "effect": "次回以降はゴール指定だけで同じ処理を即再現できるようになる。",
+    "purposes": [
+      "SEO・ブログ",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 49,
+    "slug": "system-049",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "2行のゴール指示でClaude Codeが仕様から実装まで自律実行",
+    "challenge": "システム実装の際に詳細な手順書を作成する工数がかかり、担当者の負担になりやすい。",
+    "solution": "ゴールだけを簡潔に書いた指示書をClaude Codeに渡し、仕様書作成・実装・サーバー構成まで自律実行させる。",
+    "effect": "手順を逐一定義せずに最終成果物まで自律で到達できる。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 50,
+    "slug": "system-050",
+    "industry": "その他",
+    "category": "エージェント設計・ハーネス",
+    "title": "仮想オフィス型マルチエージェントをClaude Codeで構築",
+    "challenge": "企画・調査・制作など役割の異なる作業を一人でこなすと、切り替えコストと抜け漏れが生じやすい。",
+    "solution": "Claude Codeの`.claude`ディレクトリに役割別エージェントを設定し、自分がオーケストレーター役として各担当エージェントに仕事を振る多重構造を構築する。",
+    "effect": "一人でも複数役割を並列処理できる仮想オフィス体制を実現できる。",
+    "purposes": [
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 51,
+    "slug": "system-051",
+    "industry": "その他",
+    "category": "エージェント設計・ハーネス",
+    "title": "化粧品営業会社が名刺管理〜CRMをAIで自動化",
+    "challenge": "名刺情報の入力・顧客ランク付け・フォローメール送信が属人的で手間がかかる。",
+    "solution": "Claude CodeがOCR取込・データ正規化・Salesforceインポート・スコアリング・メール配信・売上分析までを自律的に実装。",
+    "effect": "名刺交換からCRM管理・営業アラートまでが一貫して自動で動く仕組みが完成。",
+    "purposes": [
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Salesforce"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 52,
+    "slug": "system-052",
+    "industry": "その他",
+    "category": "エージェント設計・ハーネス",
+    "title": "複数タスクの並行処理でAI活用量を最大化",
+    "challenge": "AIに指示してから結果が出るまでの待ち時間を持て余してしまう。",
+    "solution": "Claude Codeで複数タスクを同時並行で走らせ、一つが実行中に次の指示を出すマルチタスク運用を実践。",
+    "effect": "待ち時間ゼロで次々と作業が進み、処理できる作業量が大幅に増加。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 53,
+    "slug": "system-053",
+    "industry": "その他",
+    "category": "エージェント設計・ハーネス",
+    "title": "1人社長がバーチャル社員を量産し分業体制を構築",
+    "challenge": "少人数の組織では企画・調査・実行を1人でこなす限界がある。",
+    "solution": "Claude Codeで役割ごとにエージェントを定義し、タスクを投げると各担当が分担して動くバーチャルオフィスを構築。",
+    "effect": "スマホから指示するだけで複数の担当AIが並行して動き、1人で多人数分の業務を処理できる環境を実現。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 54,
+    "slug": "system-054",
+    "industry": "その他",
+    "category": "エージェント設計・ハーネス",
+    "title": "メディア運営のコンテンツ制作をAI分業で自動化",
+    "challenge": "トレンド収集・構成・執筆・SEO・ファクトチェックを1人でこなすのは時間的に困難。",
+    "solution": "Claude Codeで企画・リサーチ・執筆・構成・チェックの担当エージェントを分業させ、人間は最終確認のみに集中。",
+    "effect": "コンテンツ制作の各工程がエージェント間の自律的な連携で進み、人の関与を最終確認のみに絞れた。",
+    "purposes": [
+      "SEO・ブログ",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 55,
+    "slug": "system-055",
+    "industry": "その他",
+    "category": "エージェント設計・ハーネス",
+    "title": "AIの行動ルール（憲法）を設定ファイルで管理",
+    "challenge": "AIが毎回意図しない方向に動き、その都度修正する手間が発生する。",
+    "solution": "Claude Codeの.claudeファイルに独自のガードレール（憲法）を記述し、次回以降も正しく動くよう設計に組み込む。",
+    "effect": "個別修正ではなく設計側を整えることで、AIが継続的に意図通りに動く仕組みを実現。",
+    "purposes": [
+      "書類OCR・データ化",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 56,
+    "slug": "system-056",
+    "industry": "その他",
+    "category": "Obsidian・第二の脳・コンテキスト",
+    "title": "音声入力アプリでClaude Codeへの指示を効率化",
+    "challenge": "Claude Codeへの長いプロンプト入力に時間がかかり、思考の流れが途切れてしまう。",
+    "solution": "Aqua Voiceで話した内容をその場で文字起こしし、そのままClaude Codeに貼り付けてObsidianにも素材として蓄積。",
+    "effect": "話すだけで指示作成が完了し、録音バックアップで文字起こし漏れも防げるようになった。",
+    "purposes": [
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 57,
+    "slug": "system-057",
+    "industry": "その他",
+    "category": "Obsidian・第二の脳・コンテキスト",
+    "title": "Obsidianに思想・議事録を蓄積しAI出力を個性化",
+    "challenge": "AIが生成するコンテンツが似通っていて、自分らしい表現や判断基準が反映されない。",
+    "solution": "Claude Codeが参照できるよう、価値観・戦略的思考・ボイスメモ・議事録をカテゴリ別にObsidianへ整理して格納。",
+    "effect": "自分の思想を学習した状態でAIが動き、らしさのあるコンテンツ生成が可能になった。",
+    "purposes": [
+      "RPA・業務自動化",
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 58,
+    "slug": "system-058",
+    "industry": "その他",
+    "category": "Obsidian・第二の脳・コンテキスト",
+    "title": "Obsidianの大量情報をClaude Codeに効率よく参照させる設計",
+    "challenge": "蓄積情報が増えるとAIのコンテキスト上限に引っかかり、うまく読み込めなくなる。",
+    "solution": "情報をサマライズしてObsidianに格納しフォルダ構造を整備することで、Claude Codeが必要箇所だけを参照できるよう設計。",
+    "effect": "手動でのトークン管理が不要になり、大量の知識を持ちながら安定して動くAI環境を実現。",
+    "purposes": [],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 59,
+    "slug": "system-059",
+    "industry": "その他",
+    "category": "Obsidian・第二の脳・コンテキスト",
+    "title": "コンテンツ制作者がSNS・動画・ブログをClaude Codeで量産",
+    "challenge": "媒体ごとに別々に制作・投稿作業が発生し、更新頻度を上げにくい。",
+    "solution": "Obsidian＋Claude Code＋Remotionを連携し、1つの素材からInstagram・YouTube・ブログ記事を同一パイプラインで同時展開。",
+    "effect": "77万アクセス・1,700〜1,880万円規模の売上実績を確認。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "Remotion/動画"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 60,
+    "slug": "system-060",
+    "industry": "その他",
+    "category": "Obsidian・第二の脳・コンテキスト",
+    "title": "クリエイター向けコンテンツ自動投稿パイプラインの構築",
+    "challenge": "媒体・目的ごとに使うツールが分散し、連携設定が複雑で手が止まりやすい。",
+    "solution": "用途別にOpen Router・Google API・Remotion・Cursorなどを選択し、ObsidianとClaude Codeを中心に記事・SNS・動画の自動投稿フロー",
+    "effect": "媒体をまたいだコンテンツ展開を単一ワークフローで運用可能に。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作"
+    ],
+    "tools": [
+      "Claude Code",
+      "Notion",
+      "Obsidian",
+      "Remotion/動画"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 61,
+    "slug": "system-061",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "CRM・会計ツールへのデータ正規化でClaude活用を安定化",
+    "challenge": "AI活用の質はデータの整理状態に左右されるが、管理基盤が整っていないケースが多い。",
+    "solution": "SalesforceやfreeeなどのSaaS上にデータを正規化・構造化して保管し、Claude Codeが必要な情報を正確に取得・判断できる環境を整備。",
+    "effect": "データが整うことで引き出し・判断・自動化の精度と安定性が向上。",
+    "purposes": [
+      "経理・バックオフィス",
+      "MEO・店舗集客",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "freee",
+      "マネーフォワード",
+      "Salesforce",
+      "HubSpot",
+      "Notion",
+      "Google Workspace/GAS",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 62,
+    "slug": "system-062",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "営業部門のSalesforce操作をClaude Codeから一元化",
+    "challenge": "CRM管理画面への手入力・レポート作成に営業担当の時間が取られる。",
+    "solution": "Claude CodeからMCP経由でSalesforceのリード管理・売上予測・ダッシュボード生成を直接実行。HubSpot・Kintoneでも同様にデータ入力・進捗管理を自動化",
+    "effect": "管理画面を開かずClaude Codeだけでデータ操作・レポートが完結。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "HubSpot",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 63,
+    "slug": "system-063",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "建設・士業のFAX送信と電話発信をClaude Codeで自動化",
+    "challenge": "見積書のFAX送信や電話連絡など通信系の定型作業が手作業のまま残っている。",
+    "solution": "Claude CodeからFAX Plus APIを呼び出してA4見積書をFAX送信、AIによる音声電話発信や各種チャットツールへの通知も同一フローで実装。",
+    "effect": "書類送付から電話・チャット通知まで一連の通信処理を自動実行。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Telegram",
+      "Chatwork/Slack",
+      "クラウドFAX",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 64,
+    "slug": "system-064",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "外出先のスマホ指示だけでPCの業務処理を自動実行",
+    "challenge": "外出中でも対応が必要な調査・投稿・経理処理をリモートで指示できる環境がない。",
+    "solution": "Claude Code＋Cloudflare＋Telegramなどを組み合わせ、LINEやChatworkからテキストを送るだけでPC側がWebサーチ・ブログ投稿・画像生成・経理処",
+    "effect": "PCの前にいなくても業務処理をスマホ一文で即時起動できる環境を実現。",
+    "purposes": [
+      "経理・バックオフィス",
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Obsidian",
+      "Telegram",
+      "Chatwork/Slack",
+      "Cloudflare"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 65,
+    "slug": "system-065",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "企業がCRM・SNS・メールを横断してn8nで自動化",
+    "challenge": "複数のサービスをつないだ複合的な業務自動化が難しく、手作業が残りがちな課題。",
+    "solution": "Claude Codeで生成したロジックをn8nワークフローに組み込み、MCP連携でCRM・SNS・メールを横断した自動処理を実現。",
+    "effect": "サービス間の連携が一元化され、複合業務フローを自動で処理できるようになった。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "n8n",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 66,
+    "slug": "system-066",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "マーケターがLINEツールをClaude Codeで一括管理",
+    "challenge": "LINEマーケティングツールの管理画面を毎回開いて配信設定や顧客管理を手動で行う手間がかかる。",
+    "solution": "Claude CodeとMCP連携でLステップ・エルメ等に接続し、管理画面を開かずに配信設定・顧客管理・データ取得を操作。",
+    "effect": "ツール管理画面への手動操作が不要になり、配信管理の効率が上がった。",
+    "purposes": [
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 67,
+    "slug": "system-067",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "SNS担当者がXへの自動投稿をClaude Codeで構築",
+    "challenge": "X（旧Twitter）への定期投稿を手動で行う手間が積み重なり、運用コストがかかっている。",
+    "solution": "Claude CodeがX APIの仕様を調べてスクリプトを自動生成し、APIキーを.envファイルに設定して自動投稿を実装。",
+    "effect": "投稿作業が自動化され、SNS運用の手間が大幅に減った。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 68,
+    "slug": "system-068",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "CS担当者がLINEの自動返信をClaude Codeで実装",
+    "challenge": "LINEへの問い合わせ内容を担当者が毎回判断して返信しており、対応工数が集中しやすい。",
+    "solution": "Claude Codeに対応ナレッジを登録し、受信メッセージを内容分類して暴言・エスカレーション・通常問い合わせなどを自動判断・返信。",
+    "effect": "問い合わせの自動分類と返信が実現し、対応工数の削減につながった。",
+    "purposes": [
+      "CS・サポート",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 69,
+    "slug": "system-069",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "業務担当者がLINE受信からFAX返信までn8nで全自動化",
+    "challenge": "LINE受信→処理→FAX送信→返信の一連の流れを手動でこなしており、工程ごとに作業が発生している。",
+    "solution": "n8nのスケジュール実行機能とClaude Codeを組み合わせ、LINE受信→処理→クラウドFAX送信→LINE返信を完全自動化。",
+    "effect": "手動トリガー不要の全自動ワークフローが実現し、定型対応が自動で完結するようになった。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "n8n",
+      "クラウドFAX"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 70,
+    "slug": "system-070",
+    "industry": "その他",
+    "category": "MCP・外部連携",
+    "title": "サーバー常駐でFAX受信を自動検知・通知",
+    "challenge": "FAX受信の確認漏れや対応遅れが現場の負担になっている。",
+    "solution": "Claude Codeをサーバーに常駐させ、クラウドFAXと連携したポーリング処理で受信を自動検知・通知する仕組みを構築。",
+    "effect": "PC不要で24時間FAX受信を自動監視・通知できる体制が整った。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "クラウドFAX"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 71,
+    "slug": "system-071",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "台本〜映像・音声まで全工程をAIで動画制作",
+    "challenge": "動画制作は台本・撮影・編集・音声と工程が多く、制作コストがかさむ。",
+    "solution": "Claude Codeに音声APIと映像APIを組み合わせ、台本作成から映像編集・音声生成まで人手を介さずAIのみで動画を制作。",
+    "effect": "人間が介在しない動画制作フローが実現し、制作工数を大幅に削減できた。",
+    "purposes": [
+      "クリエイティブ制作"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 72,
+    "slug": "system-072",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "スマホ1台でClaude Codeをリモート操作",
+    "challenge": "外出中はPCが使えず、投稿・資料作成などの業務が滞りやすい。",
+    "solution": "Claude CodeにCloudflare・Telegramを組み合わせ、LINE・Chatwork・Slackからスマホで指示を送るだけでSNS投稿・資料作成・管理業務をリモー",
+    "effect": "移動中や外出先でもAIエージェントをフル活用できる環境が整った。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Telegram",
+      "Chatwork/Slack",
+      "Cloudflare"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 73,
+    "slug": "system-073",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "ブログ収益化エージェントでトレンド投稿を自動化",
+    "challenge": "トレンドリサーチから記事作成・投稿・SNS告知まで工数がかかり続かない。",
+    "solution": "数行の指示からClaude Codeが要件定義・実装まで行い、リサーチ→記事作成→品質チェック→WordPress投稿→X告知を自律実行。人間は承認のみ。",
+    "effect": "継続的な記事投稿とSNS告知が自動化され、運用負担が大きく減った。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "WordPress"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 74,
+    "slug": "system-074",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "個人セミナー運営の集客〜クロージングをAIで完結",
+    "challenge": "一人でセミナーの集客・コンテンツ・CS・書類作成を回すのは限界がある。",
+    "solution": "ObsidianとClaude Code・Cursorを組み合わせ、X投稿からLINE集客・面談・クロージングまでの全オペレーションをAIが自律実行する仕組みを構築した。",
+    "effect": "人間は意思決定と最終確認のみで全工程が稼働するようになった。",
+    "purposes": [
+      "SNS運用",
+      "CS・サポート",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Obsidian"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 75,
+    "slug": "system-075",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "X自動投稿とLINE集客をClaude Codeで自動化",
+    "challenge": "SNS投稿・特典資料の配布・LINEリスト構築を手作業で続けるのは非効率。",
+    "solution": "Obsidian＋Claude Code＋Google APIでXを自動投稿し、AIが生成したスライド資料をLINEの特典として配布する仕組みを構築した。",
+    "effect": "フォロワーとLINEリストの大規模構築を一人で実現できた。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Obsidian"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 76,
+    "slug": "system-076",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "HP制作をClaude Code＋LINEでエージェント化",
+    "challenge": "LPやサイト制作でヒアリング・デザイン・修正・公開まで多くの手作業が発生する。",
+    "solution": "LINEでヒアリングした内容をもとに、Claude Codeがデザイン生成・品質スコア確認・自動修正ループ・WordPressへの自動投稿までを自律実行する。",
+    "effect": "LPを短時間で複数パターン出力し、品質基準を満たすまで自動で改善されるようになった。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "WordPress"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 77,
+    "slug": "system-077",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "スマホからClaude Codeをリモート操作して業務を遠隔実行",
+    "challenge": "外出中はパソコンがなく、投稿・資料作成・経理処理などの業務が止まってしまう。",
+    "solution": "TelegramやLINEをインターフェースにして、クラウド上のClaude CodeエージェントにスマホからX投稿・ブログ・画像生成・経理処理などを指示できる構成を構築した。",
+    "effect": "スマホ一台で主要な業務をリモート実行できる環境が整った。",
+    "purposes": [
+      "経理・バックオフィス",
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Telegram",
+      "Cloudflare"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 78,
+    "slug": "system-078",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "メディア運営者がnote・X投稿をClaude Codeで量産",
+    "challenge": "記事・SNS投稿を手動で作り続けると時間もコストも膨大になる。",
+    "solution": "Obsidian×Claude Codeで素材から記事生成・アイキャッチ・動画作成・自動投稿までを一気通貫で処理。",
+    "effect": "noteに3000記事を投稿し77万アクセス、Xで490万インプレッションを達成。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 79,
+    "slug": "system-079",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "広告代理店がリスティング運用をClaude Codeで自律化",
+    "challenge": "キーワード選定・入札調整・レポート作成を毎回手作業で行い担当者の負担が大きい。",
+    "solution": "Claude Codeがキーワード設計・スコアリング・A/Bテスト・レポートのチャット通知まで自律的に実行。",
+    "effect": "2行の指示だけで広告運用の主要工程を自動化できる体制が完成。",
+    "purposes": [
+      "広告運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 80,
+    "slug": "system-080",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "個人事業主がClaude Code×LINEで複数収益ラインを並行運用",
+    "challenge": "SEO・SNS・コンテンツ販売を並行して回すには通常複数人のチームが必要になる。",
+    "solution": "Obsidian×Claude Code×LINEでSEO記事生成・SNS誘導・セミナー販売・動画コンテンツ販売を1人で同時運用。",
+    "effect": "SEO売上・セミナー売上・コンテンツ売上を1人・AI主導で同時達成。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Obsidian"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 81,
+    "slug": "system-081",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "営業・企画担当者がLP・スライドをClaude Codeで短時間作成",
+    "challenge": "LPやプレゼン資料の制作に外注や専門スキルが必要で時間・費用がかかる。",
+    "solution": "Claude Codeが必要ライブラリを自動インストールし、LPの複数デザイン案とPowerPointスライドを自動生成。",
+    "effect": "LPは約10分で6パターン、スライドは15〜20分で完成。",
+    "purposes": [
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 82,
+    "slug": "system-082",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "営業チームがCRMへの情報登録をClaude Codeで自動化",
+    "challenge": "GmailやSlackに散らばる顧客情報・商談内容をCRMへ手入力する作業が営業の負担になっている。",
+    "solution": "Claude CodeがGmail・Googleカレンダー・Slackなどから情報を自動取得し、Salesforce・Kintone・HubSpotへ登録・レポートを自動生成。",
+    "effect": "CRM入力・レポート作成が自動化され、営業が商談に集中できる環境に。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "HubSpot",
+      "Google Workspace/GAS",
+      "Chatwork/Slack"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 83,
+    "slug": "system-083",
+    "industry": "その他",
+    "category": "業務効率化・自動化の実例",
+    "title": "SNS担当者がX投稿のPDCAをClaude Codeで自動化",
+    "challenge": "X（旧Twitter）の投稿・分析・改善を手動で回すと時間がかかりサイクルが遅くなりがち。",
+    "solution": "Claude Codeがインプレッション数を自律分析し、NGルールを蓄積しながら投稿文・画像生成・自動投稿・次回改善案までをループで実行。",
+    "effect": "投稿スタイルをAIが自己改善し続け、継続的な運用品質の向上を実現。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 84,
+    "slug": "system-084",
+    "industry": "その他",
+    "category": "【技術】Claude Code操作・コマンド（/goal・スラッシュ等）",
+    "title": "事業者がClaude Codeターミナルで情報収集・ファイル作成を自動化",
+    "challenge": "最新情報の収集・整形・ファイル保存を毎回手作業で行うと時間がかかる。",
+    "solution": "Claude Codeターミナルに自然言語で指示するだけでウェブ検索・内容整形・ローカルフォルダへの書き込みを自律実行。",
+    "effect": "情報収集からファイル出力までの一連作業を自動でまとめて完了。",
+    "purposes": [
+      "MEO・店舗集客",
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 85,
+    "slug": "system-085",
+    "industry": "その他",
+    "category": "【技術】Claude Code操作・コマンド（/goal・スラッシュ等）",
+    "title": "非エンジニアがフォルダ指定でWeb調査を自動実行",
+    "challenge": "調査業務でWeb検索と資料整理を手作業で繰り返す手間がかかる。",
+    "solution": "Claude Codeデスクトップアプリでフォルダを指定し、自然言語でWeb検索付きタスクを指示するだけで調査・整理を自動実行。",
+    "effect": "プログラミング知識ゼロでも調査業務を自律実行できる。",
+    "purposes": [
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 86,
+    "slug": "system-086",
+    "industry": "その他",
+    "category": "【技術】Claude Code操作・コマンド（/goal・スラッシュ等）",
+    "title": "全エージェントに共通ルールをグローバル設定で適用",
+    "challenge": "複数のエージェントやスキルで挙動のばらつきや禁止事項の漏れが起きやすい。",
+    "solution": "Claude Codeのグローバル設定ファイルに行動ルール・禁止事項・優先順位を「憲法」として記述し、全エージェントに一貫した制約を自動適用。",
+    "effect": "ルールの管理が一元化され、エージェント挙動の一貫性が向上。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 87,
+    "slug": "system-087",
+    "industry": "その他",
+    "category": "【技術】Claude Code操作・コマンド（/goal・スラッシュ等）",
+    "title": "Claude Code活用時のセキュリティリスクを3段階で整理",
+    "challenge": "顧客情報を扱う業務でAIエージェント利用時のリスク範囲が不明確になりやすい。",
+    "solution": "リスクをPC・ネットワーク層／クラウドサービス層／エージェント自律送信層の3段階に分け、層ごとに「情報を載せない設計」や「許容範囲内での利用」方針を適用。",
+    "effect": "リスクの所在が明確になり、適切な設計判断ができるようになる。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Google Workspace/GAS"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 88,
+    "slug": "system-088",
+    "industry": "その他",
+    "category": "【技術】.claude構成（CLAUDE.md/Skills/rules/agents）",
+    "title": "誤配置した.claudeをプロンプト指示で正しい場所に修正",
+    "challenge": "設定フォルダの置き場所を間違えるとルールやスキルが一切反映されない。",
+    "solution": "Claude Codeに日本語で「フォルダ内に.claudeを配置して」と指示するだけで、正しい場所への移動・再生成を自動実行。",
+    "effect": "設定ミスを技術知識なしで即座に解消できる。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 89,
+    "slug": "system-089",
+    "industry": "その他",
+    "category": "【技術】.claude構成（CLAUDE.md/Skills/rules/agents）",
+    "title": "Claude Code単体で補助ツール不要のエージェント構築",
+    "challenge": "以前は複数の補助ツールを組み合わせる必要があり、環境構築が複雑だった。",
+    "solution": "Claude Codeのアップデート後はデフォルト機能だけでMCP接続・ファイル操作・ブラウザ操作まで完結するため、追加ツールなしで実務レベルのシステムを構築。",
+    "effect": "環境構築の手間が減り、実務システムをシンプルに立ち上げられる。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 90,
+    "slug": "system-090",
+    "industry": "その他",
+    "category": "【技術】MCP接続・設定の具体手順",
+    "title": "営業担当がHubSpotのCRM操作・レポート生成をClaude Codeで自動",
+    "challenge": "HubSpotでの取引先集計・レポート作成・メール送信を都度手操作で行う負担が大きい。",
+    "solution": "HubSpotのMCPサーバーをClaude Codeに接続し、業種別サマリーや売上レポートの集計・整形・CRMへの書き込みまでプロンプトから一括実行。",
+    "effect": "HubSpot画面を開かずにCRM操作からレポート出力まで完結できる。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "HubSpot",
+      "kintone",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 91,
+    "slug": "system-091",
+    "industry": "その他",
+    "category": "【技術】MCP接続・設定の具体手順",
+    "title": "経理担当がTelegram経由でClaude Codeを遠隔操作",
+    "challenge": "外出中にパソコンがなく、会計・CRMの操作確認が滞ることがある。",
+    "solution": "TelegramボットをMCPでClaude Codeに接続し、スマホからレシート送信や指示を行うとkintoneへの保存・仕訳まで自動実行される構成を整えた。",
+    "effect": "PC不在時でもスマホだけで経理・CRM操作が完結できるようになった。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "kintone",
+      "Telegram",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 92,
+    "slug": "system-092",
+    "industry": "その他",
+    "category": "【技術】MCP接続・設定の具体手順",
+    "title": "プロジェクト担当がAsanaタスクをClaude Codeで整理",
+    "challenge": "Asanaのタスク一覧を整形・確認する作業に毎回手間がかかっている。",
+    "solution": "AsanaのMCPをClaude Codeに設定し、「該当プロジェクトのタスクを見やすいHTMLで出力して」と日本語で指示するだけでタスク一覧を自動整形した。",
+    "effect": "日本語指示だけでAsanaのタスク整理・表示が完結できるようになった。",
+    "purposes": [],
+    "tools": [
+      "Claude Code",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 93,
+    "slug": "system-093",
+    "industry": "その他",
+    "category": "【技術】MCP接続・設定の具体手順",
+    "title": "店舗・EC運営がLINEの自動返信をClaude Codeで実装",
+    "challenge": "LINEへの問い合わせ対応が多く、手動返信の工数が積み重なっている。",
+    "solution": "LINE Messaging APIのWebhookエンドポイントにClaude Codeエージェントを接続し、受信メッセージをAIが判断して自動返信するパイプラインを構築した。",
+    "effect": "LINEへの定型問い合わせに対して自動返信が機能し、対応工数が削減された。",
+    "purposes": [
+      "CS・サポート",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 94,
+    "slug": "system-094",
+    "industry": "その他",
+    "category": "【技術】業務システム実装の具体（会計/CRM/CAD/SNS）",
+    "title": "結婚相談業がInstagram集客をClaude Codeで自動化",
+    "challenge": "SNS運用に手が回らず、投稿・DM・集客が属人的になりがち。",
+    "solution": "Claude Codeにターゲットや目的を伝えるだけで、コンテンツ企画から自動投稿・DM・ウェビナー集客までの仕様書とフローを自律生成し実装する。",
+    "effect": "追加ツール不要でInstagram運用フロー全体を自動化。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 95,
+    "slug": "system-095",
+    "industry": "その他",
+    "category": "【技術】業務システム実装の具体（会計/CRM/CAD/SNS）",
+    "title": "コンテンツ事業者がnote自動投稿パイプラインでSEO流入を拡大",
+    "challenge": "記事の企画から投稿まで工数が多く、継続的な更新が難しい。",
+    "solution": "ObsidianとClaude Codeを組み合わせてタイトル・画像・本文を自動生成し、note APIで自動投稿するパイプラインを構築した。",
+    "effect": "大量投稿により1年間で77万人の無料SEO流入を獲得。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 96,
+    "slug": "system-096",
+    "industry": "その他",
+    "category": "【技術】業務システム実装の具体（会計/CRM/CAD/SNS）",
+    "title": "Kintoneの請求データをClaude Codeでグラフ出力・分析",
+    "challenge": "Kintoneに蓄積した請求・取引データを可視化するには、都度手作業でレポートを作る必要があった。",
+    "solution": "Kintone APIをClaude Codeに接続し、自然言語の指示だけで請求管理グラフの生成・CSV出力・データ登録を一括操作できるようにした。",
+    "effect": "Kintoneのレポート作成・データ分析を指示一つで完結できるようになった。",
+    "purposes": [
+      "CS・サポート"
+    ],
+    "tools": [
+      "Claude Code",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 97,
+    "slug": "system-097",
+    "industry": "その他",
+    "category": "【技術】業務システム実装の具体（会計/CRM/CAD/SNS）",
+    "title": "LINE WORKSにClaude Codeを連携しナレッジから自動返信",
+    "challenge": "社内・顧客からの問い合わせ対応に担当者の時間が取られ、FAQ対応が属人化しやすい。",
+    "solution": "LINE WORKS Bot APIとClaude Codeを接続し、ナレッジ・FAQを参照して問い合わせ内容に応じた自動返信とエスカレーション振り分けを実装した。",
+    "effect": "定型・非定型問わず自動返信が機能し、担当者の対応工数が削減された。",
+    "purposes": [
+      "採用・HR",
+      "CS・サポート",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 98,
+    "slug": "system-098",
+    "industry": "その他",
+    "category": "【技術】業務システム実装の具体（会計/CRM/CAD/SNS）",
+    "title": "LステップのステップメールシナリオをClaude Codeで自動生成",
+    "challenge": "LINEステップ配信のシナリオ設計・文面作成はMAツールの操作と合わせて時間がかかる繰り返し作業だった。",
+    "solution": "LステップのAPIとClaude Codeを接続し、シナリオ一覧の生成・メール文面作成・対象者への自動配信までを一連のフローとして構築した。",
+    "effect": "シナリオ設計から配信実行までの作業を大幅に短縮できた。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "LINE"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 99,
+    "slug": "system-099",
+    "industry": "その他",
+    "category": "【技術】業務システム実装の具体（会計/CRM/CAD/SNS）",
+    "title": "Instagramリールのコンテンツ運用をClaude Codeで自動化",
+    "challenge": "SNS運用はスケジュール管理・コンテンツ作成・投稿・分析と工程が多く、継続運用に工数がかかる。",
+    "solution": "Claude CodeにInstagram Graph APIを連携させ、投稿スケジュール・コンテンツ生成・ハッシュタグ設定・パフォーマンス分析の一連フローを自律構築した。",
+    "effect": "リール投稿から分析までの運用フローをほぼ自動で回せるようになった。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 100,
+    "slug": "system-100",
+    "industry": "その他",
+    "category": "【技術】業務システム実装の具体（会計/CRM/CAD/SNS）",
+    "title": "LINEからFAX送受信をClaude Codeで自動化",
+    "challenge": "物理FAX機への対応で担当者が都度その場にいる必要があり、業務が止まりやすい。",
+    "solution": "n8nとクラウドFAXサービスをClaude Codeに接続し、LINEで送信指示するとFAXが自動送出、受信FAXはテキスト化してLINEに転送するフローを構築する。",
+    "effect": "物理FAX機が不要になり、外出中でもFAX対応が完結。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "n8n",
+      "Telegram",
+      "クラウドFAX"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 101,
+    "slug": "system-101",
+    "industry": "その他",
+    "category": "【技術】Obsidian・コンテキスト連携の技術",
+    "title": "Obsidianノートをタグ分類でトークン効率化",
+    "challenge": "大量のノートをAIに読み込ませるとトークンを消費しすぎ、コストや速度に影響が出る。",
+    "solution": "フォルダ・タグでカテゴリ分類し必要な範囲だけClaude Codeに参照させ、サマライズ処理を挟んでトークン消費を抑制する。",
+    "effect": "不要なトークン消費が減り、ナレッジ参照のコストと速度が改善。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 102,
+    "slug": "system-102",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "ObsidianナレッジからXへClaude Codeで自動投稿",
+    "challenge": "SNS投稿のネタ出し・文章作成・定期投稿を手作業で続けるのは負担が大きい。",
+    "solution": "Claude CodeがObsidianのナレッジを参照して投稿文を生成し、品質フィルタを通過したものをX API v2とスケジューラで自動投稿、画像は画像生成APIで同時生成して",
+    "effect": "継続的な自動投稿が実現し、フォロワー増加・インプレッション拡大につながった。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "GitHub",
+      "Obsidian",
+      "fal.ai/gpt-image"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 103,
+    "slug": "system-103",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "スマホからCloudflare経由でPCをClaude Codeで遠隔操作",
+    "challenge": "外出中に自宅・オフィスのPCで作業が必要になっても、その場で対応できない。",
+    "solution": "TelegramをインターフェースにCloudflare Worker経由でClaude Codeに接続し、スマートフォンからPC上の投稿・編集・電話対応などを遠隔実行できる構成を",
+    "effect": "PC前にいなくても外出先からコンテンツ制作・業務対応が完結。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Telegram",
+      "Cloudflare"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 104,
+    "slug": "system-104",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "kintone連携でFAX・電話報告をClaude Codeで自動化",
+    "challenge": "調査結果の報告や定型FAXのやり取りに担当者の手作業が都度発生する。",
+    "solution": "Claude CodeにFAX APIと通話APIをMCP経由で接続し、調査完了後に自動音声通話で結果を読み上げ、受信FAXはAI解析して返信FAXを自動送信、kintoneと連携",
+    "effect": "報告・FAX対応の一連の作業が自動化され、担当者の対応負荷を軽減。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "kintone",
+      "クラウドFAX",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 105,
+    "slug": "system-105",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "音声・映像APIとClaude Codeでリアルタイム動画講師を自動化",
+    "challenge": "動画講義の収録・修正・進行に人手と時間がかかり、リアルタイム対応が難しい。",
+    "solution": "音声合成API・アバター動画生成API・Claude CodeのComputer Use APIを統合し、プロンプト指示だけで講師役の動画進行・資料修正・操作を自動実行する構成を構",
+    "effect": "人手を介さない講師自動化が技術的に実現可能となり、制作工数を大幅に削減。",
+    "purposes": [
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Remotion/動画"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 106,
+    "slug": "system-106",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "X投稿のPDCAサイクルをClaude Codeで自動運用",
+    "challenge": "SNS運用でエンゲージメント分析から改善施策の反映まで手作業では時間と手間がかかる。",
+    "solution": "X API v2をMCP経由でClaude Codeに接続し、投稿ドラフト生成・スケジュール投稿・インプレッション分析・改善ルール追記まで自動でループ。",
+    "effect": "運用ルール蓄積により投稿品質が継続向上。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Google Workspace/GAS",
+      "Obsidian",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 107,
+    "slug": "system-107",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "SNS投稿用画像生成とエラー再発防止をClaude Codeで自動化",
+    "challenge": "SNS投稿画像の作成・修正・エラー対応を繰り返すたびに同じトラブルが発生し手間になる。",
+    "solution": "Claude Codeが画像生成ライブラリを自動インストールして投稿画像を生成し、発生したエラーの再発防止ルールをSkillsに自動蓄積。",
+    "effect": "同種エラーの再発をなくし投稿作業が安定化。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 108,
+    "slug": "system-108",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "PowerPointファイル自動生成をClaude Codeで実装",
+    "challenge": "提案資料やレポートをPowerPoint形式で量産する作業に多くの時間を取られる。",
+    "solution": "Claude Codeがpython-pptxを自動インストールしスライド構成・本文・画像埋め込みまで含む.pptxファイルを一連の指示だけで生成。",
+    "effect": "スライド生成の手作業をゼロにし資料作成を効率化。",
+    "purposes": [
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 109,
+    "slug": "system-109",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "スマートフォンとTelegramだけで全業務をClaude Codeが代行",
+    "challenge": "外出中や移動中にPCを開かずSNS投稿・経理・ブログ更新を処理したいニーズがある。",
+    "solution": "TelegramボットをVPS上のClaude CodeエージェントにMCP連携し、スマートフォンから送るだけで経費仕訳・記事生成・SNS投稿・動画編集をバックグラウンド実行。",
+    "effect": "PC不要でスマートフォン1台から全業務を完結。",
+    "purposes": [
+      "経理・バックオフィス",
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "書類OCR・データ化",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Telegram",
+      "Cloudflare",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 110,
+    "slug": "system-110",
+    "industry": "その他",
+    "category": "【技術】自動化パイプライン実装（API/スクリプト/ffmpeg等）",
+    "title": "クラウドFAXとLINEをClaude Codeで自動連携",
+    "challenge": "FAX受送信の手作業対応が残り、チャットツールとの情報連携も手動で非効率。",
+    "solution": "Claude CodeでクラウドFAX APIを呼び出し、LINEやTelegramとFAXの送受信を自動で橋渡しするスクリプトを生成。",
+    "effect": "FAX着信の転送通知や送信が自動化され、手作業の対応が不要になった。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Telegram",
+      "クラウドFAX",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 111,
+    "slug": "system-111",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "リスティング広告の自律運用システムをClaude Codeで構築",
+    "challenge": "広告キーワード管理・入札戦略・クライアント報告をすべて手作業で行う負担が大きい。",
+    "solution": "Claude Codeへの一文指示から仕様書生成→API連携→スプレッドシート・メール通知まで含む半自動システムを自律構築。",
+    "effect": "スコアリングやA/Bテストを含む広告運用フローが大幅に自動化された。",
+    "purposes": [
+      "広告運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Google Workspace/GAS"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 112,
+    "slug": "system-112",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "Claude Codeの並列サブエージェントで複数案件を同時自動処理",
+    "challenge": "複数案件を同時進行する際、担当者が細かい進捗確認や操作に追われてしまう。",
+    "solution": "Claude Codeで複数サブエージェントを並列起動し、エラー時のみ人間が介入する設計で案件を自律完走させる。",
+    "effect": "並列数を増やすほど人間の待機・介入時間が減り、ルーチン作業が自動化された。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 113,
+    "slug": "system-113",
+    "industry": "その他",
+    "category": "【技術】サブエージェント・A2A・並列処理の実装",
+    "title": "Claude Codeのワークフロー型とエージェント型の使い分け整理",
+    "challenge": "自動化の実装方針が定まらず、用途に合わない設計で手戻りが発生しやすい。",
+    "solution": "ステップ固定の処理はワークフロー型、ゴール一行で仕様作成から実装・テストまで完走させる場合はエージェント型とClaude Codeで使い分け。",
+    "effect": "実装方針が明確になり、プログラミング不要でも目的に合った自動化が選択できるようになった。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 114,
+    "slug": "system-114",
+    "industry": "その他",
+    "category": "企業導入・セキュリティ・権限",
+    "title": "AI活用リスクと恩恵のバランス判断",
+    "challenge": "Claude Codeへの入力が外部に漏れないか不安で、AI活用に踏み出せない担当者が多い。",
+    "solution": "GmailやWindowsと同様の視点でリスクを捉え、ノウハウ流出の実態を整理した上でAI活用の優先度を判断する。",
+    "effect": "過剰な懸念を解消し、AI活用への意思決定がスムーズになる。",
+    "purposes": [
+      "評価・育成"
+    ],
+    "tools": [
+      "Claude Code",
+      "Google Workspace/GAS"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 115,
+    "slug": "system-115",
+    "industry": "その他",
+    "category": "【技術】Obsidian・コンテキスト連携の技術",
+    "title": "教育機関がZoom録画をClaude CodeでHTMLダイジェスト化",
+    "challenge": "過去のZoomセミナー録画が蓄積されても、内容を整理・共有する手間が大きく活用されていない。",
+    "solution": "Zoom録画をWhisperで文字起こしし、Claude Codeに構造指示を与えて放送日別見出し・サイドバー要約付きのHTMLダイジェストを自動生成する。",
+    "effect": "録画コンテンツが読みやすいレポートとして即日再利用できる。",
+    "purposes": [
+      "MEO・店舗集客",
+      "クリエイティブ制作",
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 116,
+    "slug": "system-116",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT開発チームがClaude Codeでエージェント設計を習得",
+    "challenge": "AIツールの操作方法は学んでも、自律型エージェントの設計概念が理解できていない。",
+    "solution": "Claude Codeを入口にレベル1〜4のエージェントエンジニアリング体系を段階的に学び、ゴール渡し型の自律構成を理解。",
+    "effect": "ツール操作にとどまらず、エージェント設計思想の習得が可能に。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 117,
+    "slug": "system-117",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当者が長文コンテキストで出力品質を向上",
+    "challenge": "短いテンプレートをコピペするだけでは、AIへの指示がうまく伝わらず出力の質が上がらない。",
+    "solution": "演繹法・帰納法・抽象化を踏まえた濃い思考を音声メモや長文でAIに渡し、AIに整理・展開させる方法を実践。",
+    "effect": "指示の質が上がり、AIの出力精度が向上。",
+    "purposes": [
+      "議事録・文字起こし"
+    ],
+    "tools": [],
+    "author": "さき"
+  },
+  {
+    "id": 118,
+    "slug": "system-118",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "AI開発者が思考力・要件定義力を土台に自律化推進",
+    "challenge": "ツールの使い方は覚えても、要件定義や論理的思考が弱いと高度な自動化が実現できない。",
+    "solution": "認知力・帰納法・演繹法・構造化などの思考テクニックを土台に、エージェントエンジニアリング（Level3）の概念理解を優先して学習。",
+    "effect": "枝葉のツール操作に頼らず、本質的な自動化設計力を習得。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [],
+    "author": "あおい"
+  },
+  {
+    "id": 119,
+    "slug": "system-119",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT企業がレベル3〜4のエージェントで業務効率化",
+    "challenge": "チャット活用止まりの企業と、自律エージェントを使う企業との間で業務効率に大きな差が生まれている。",
+    "solution": "レベル3ではゴール指示だけでシステムを自律生成、レベル4ではデバッグ・チューニングもエージェントが自己完結する構成を導入。",
+    "effect": "大手IT企業と同レベルの自律的な業務効率化体制を構築。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [],
+    "author": "ゆい"
+  },
+  {
+    "id": 120,
+    "slug": "system-120",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当者がA2A構成でエージェント管理スキルを確立",
+    "challenge": "AIの自動化が進むほど、人間が介在できる工程が減り、設計・管理できない人材の役割が消えていく。",
+    "solution": "エージェントがエージェントを管理するA2A（マトリョーシカ）構成を理解し、上位エージェントを設計・管理できるスキルを習得。",
+    "effect": "自律化が進む環境でも、エージェント設計・管理の役割を担える人材に。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [],
+    "author": "さき"
+  },
+  {
+    "id": 121,
+    "slug": "system-121",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当者が長文音声をClaude Codeに投げてブログ生成システムを構築",
+    "challenge": "単行のプロンプトでは意図や背景が伝わらず、望む品質のコンテンツが生成されにくい。",
+    "solution": "音声録音や長文で話した思考・背景・事例をそのままClaude Codeに入力し、コンテキストの量と質でアウトプットを引き出す。",
+    "effect": "詳細なコンテキストを渡すことで、意図に沿ったブログ記事システムの自動構築が可能になった。",
+    "purposes": [
+      "SEO・ブログ",
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 122,
+    "slug": "system-122",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "SaaS連携の要MCPでClaude Codeを業務の司令塔に",
+    "challenge": "SalesforceやfreeeなどのSaaSがバラバラに存在し、ツール間の連携に個別の開発コストがかかる。",
+    "solution": "MCP（外部ツール連携レイヤー）を介してSalesforce・Kintone・freee・マネーフォワード・NotionなどをClaude Codeに接続し、一元操作できる環境を整",
+    "effect": "複数SaaSをClaude Code上で統合操作でき、ツール間の手作業による転記・連携が不要になった。",
+    "purposes": [],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "Salesforce",
+      "LINE",
+      "Notion",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 123,
+    "slug": "system-123",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "バックオフィス部門がSaaS管理画面ゼロ操作を実現",
+    "challenge": "会計・CRM・チャットなど多数のSaaSを都度ログインして操作する手間が大きい。",
+    "solution": "MCPを通じてfreee・マネーフォワード・Salesforce・LINE・Notionなど多数のSaaSをClaude Codeに接続し、データ取得・入力・出力をコマンドだけで実",
+    "effect": "各SaaSの管理画面に触れずにデータ操作が完結し、バックオフィス業務の手作業を削減。",
+    "purposes": [
+      "経理・バックオフィス",
+      "RPA・業務自動化",
+      "議事録・文字起こし",
+      "営業・CRM",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "Salesforce",
+      "HubSpot",
+      "LINE",
+      "Notion",
+      "Google Workspace/GAS",
+      "n8n",
+      "Chatwork/Slack",
+      "クラウドFAX",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 124,
+    "slug": "system-124",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当が複数SaaSをClaude Codeで横断操作",
+    "challenge": "Asana・HubSpot・Kintone・Notionなど複数ツールを行き来する操作に時間がかかる。",
+    "solution": "MCPをAIアクティベーションレイヤーとして設定し、Claude Codeの同一セッション内でデータ取得・タスク登録・投稿を横断的に実行できる環境を整えた。",
+    "effect": "ツールごとのログイン・切り替えが不要になり、複数SaaSを一画面で統合操作できるようになった。",
+    "purposes": [
+      "クリエイティブ制作"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "HubSpot",
+      "LINE",
+      "Notion",
+      "Telegram",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 125,
+    "slug": "system-125",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "複数業務SaaSをMCP連携でClaude Codeから一元操作",
+    "challenge": "freee・Salesforce・kintoneなど多数のSaaSを個別に操作する手間がかかる。",
+    "solution": "各SaaSのAPIキーやOAuth情報をClaude Codeの設定ファイルに登録し、エージェントがデータ入力・取得・加工を横断的に自律実行。",
+    "effect": "複数ツールへの個別ログイン・操作が不要になり、バックオフィス業務の負担を軽減。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "マネーフォワード",
+      "Salesforce",
+      "HubSpot",
+      "kintone",
+      "LINE",
+      "Notion",
+      "クラウドFAX",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 126,
+    "slug": "system-126",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "経理担当がClaude Code×MCP連携で請求・消込を一気通貫自動化",
+    "challenge": "freeeやマネーフォワードへの接続設定でAPIキーをコードに直書きするリスクがある。",
+    "solution": "認証情報を1Passwordで管理してClaude Codeから参照させ、請求書発行・消込・残高試算表生成までMCPで一気通貫実行。",
+    "effect": "認証情報のハードコードを排除しつつ、経理業務の自動化を安全に実現。",
+    "purposes": [
+      "経理・バックオフィス",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 127,
+    "slug": "system-127",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "営業担当がGmail履歴をClaude CodeでCRMへ自動転記",
+    "challenge": "商談後のメール内容をSalesforceやHubSpotに手入力する活動履歴登録が後回しになりやすい。",
+    "solution": "Gmail MCPでメールを取得し、Claude CodeがSalesforce・HubSpot・kintoneのAPIへ活動履歴を自動書き込みするパイプラインを構成。",
+    "effect": "活動履歴の入力漏れが減り、CRMデータの鮮度が向上。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "HubSpot",
+      "kintone",
+      "Google Workspace/GAS",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 128,
+    "slug": "system-128",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "個人事業主がスマホのTelegramだけで複数SaaSをClaude Codeで",
+    "challenge": "外出中もSNS投稿・資料作成・会計処理など複数ツールをこなす必要があり、PCなしでは対応できなかった。",
+    "solution": "Claude CodeをCloudflare Workers上で常時起動し、TelegramへのチャットがSNS・会計・CRMの各MCPサーバーへ順に流れて処理が完結し、結果がTe",
+    "effect": "PCが起動していない状態でも各種SaaSと連携した業務処理が実行できるようになった。",
+    "purposes": [
+      "経理・バックオフィス",
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "Telegram",
+      "Cloudflare",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 129,
+    "slug": "system-129",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当者がkintoneをMCP経由でClaude Codeから操作",
+    "challenge": "kintoneのデータ操作や設定変更のたびに管理画面を手動で操作する必要があり、効率が悪い。",
+    "solution": "Claude CodeとMCPでkintoneに接続し、エラー発生時はエラーメッセージをそのままClaude Codeに渡して自動修正。",
+    "effect": "kintoneの操作がClaude Codeから直接できるようになり、管理作業が効率化された。",
+    "purposes": [],
+    "tools": [
+      "Claude Code",
+      "kintone",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 130,
+    "slug": "system-130",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT開発の要件定義・仕様書作成をClaude Codeで自動化",
+    "challenge": "システム開発の要件定義・仕様書作成は時間がかかりエンジニアの負担が大きい。",
+    "solution": "Claude Codeに2〜3行の依頼文を入力するだけで、要件定義・仕様書・フロー図・DB設計まで自動生成。",
+    "effect": "仕様書作成にかかる時間が大幅に短縮され、開発着手までのリードタイムが縮まった。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 131,
+    "slug": "system-131",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT開発部門の進捗管理ダッシュボードをClaude Codeで自動生成",
+    "challenge": "開発チームのコミット状況や遅延原因を把握する仕組みがなく管理に手が回らない。",
+    "solution": "短い指示文からClaude CodeがGit履歴・遅延分析・ガントチャート入りの管理ダッシュボードを自動構築。",
+    "effect": "プログラマー不在でも管理システムの叩き台を即日完成。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 132,
+    "slug": "system-132",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT企業がClaude CodeをSalesforce・kintoneと連携しC",
+    "challenge": "既存SaaSへのデータ入力やKPI集計に担当者の手作業が毎日発生している。",
+    "solution": "Claude CodeをMCP経由でSalesforce・kintoneと連携し、商談登録・ダッシュボード生成・売上予測をAIが自動処理。",
+    "effect": "手作業によるデータ入力・集計作業を自動化し業務負荷を軽減。",
+    "purposes": [
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "kintone",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 133,
+    "slug": "system-133",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当者がスマホからX投稿・画像生成を遠隔自動化",
+    "challenge": "外出中でもSNS投稿や画像生成などの定型作業が発生し対応が遅れがち。",
+    "solution": "Claude CodeをMCPでChatWork・LINEと接続し、スマホから送ったメッセージをトリガーにX投稿・画像生成・FAX送信を遠隔実行するワークフローを構築。",
+    "effect": "外出先からでも複数の定型業務を即時リモート実行できる。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "クラウドFAX",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 134,
+    "slug": "system-134",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当者がkintone・Notion・LINE WORKSをClaude C",
+    "challenge": "複数SaaSへのデータ入力・進捗管理・メッセージ送信を個別に手操作する工数がかかる。",
+    "solution": "kintone・Notion・LINE WORKS・n8nのMCPサーバーをClaude Codeに追加し、プロンプト一つでレコード操作・工程表作成・メッセージ自動生成・フロー構築",
+    "effect": "複数SaaSへの操作が一元化され、手作業の繰り返しを削減できる。",
+    "purposes": [
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "kintone",
+      "LINE",
+      "Notion",
+      "n8n",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 135,
+    "slug": "system-135",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT企業がFAX送受信をClaude Codeで自動化",
+    "challenge": "FAXの送受信作業が手動で残り、担当者の工数を圧迫している。",
+    "solution": "FAX PlusまたはAPIを提供するクラウドFAXサービスをMCP経由でClaude Codeに接続し、送受信パイプラインを構築した。",
+    "effect": "FAX業務の送受信処理が自動化され、手作業が不要になった。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "クラウドFAX",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 136,
+    "slug": "system-136",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当がkintoneのMCP接続をClaude Codeでデバッグ",
+    "challenge": "kintoneとの連携設定でエラーが起きても原因特定に時間がかかる。",
+    "solution": "Claude Codeに「接続確認して」と自然言語で指示し、エラーログをそのまま貼り付けるだけで原因調査と修正を自動で繰り返させた。",
+    "effect": "エラーの原因特定と修正サイクルが自動化され、手作業のデバッグが減った。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 137,
+    "slug": "system-137",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当がAPIなしのSaaSをClaude Codeで画面操作自動化",
+    "challenge": "APIを持たないSaaSは自動化の手段がなく、手動操作が残り続けている。",
+    "solution": "APIがある場合はMCP経由で接続し、ないサービスはAnthropicのComputer UseまたはClaude in Chrome拡張を使ってDOM・クリック操作で自動化した。",
+    "effect": "API非対応のSaaSでも画面操作レベルの自動化が実装できるようになった。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 138,
+    "slug": "system-138",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT企業がCRMへの情報入力・次アクション登録をClaude CodeとMCPで",
+    "challenge": "メールや商談履歴をCRMへ手入力する作業が営業の負担になっている。",
+    "solution": "Claude CodeのMCPでSalesforce・HubSpot・KintoneをGmail・LINE・Slackと連携し、履歴の自動登録・KPIダッシュボード生成・次アクショ",
+    "effect": "CRMへの手入力を削減し、案件進捗に応じた次アクションを自動登録。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "HubSpot",
+      "LINE",
+      "Google Workspace/GAS",
+      "Chatwork/Slack",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 139,
+    "slug": "system-139",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT企業が商談情報をClaude Codeで自動DB化",
+    "challenge": "Gmail・カレンダー・Slackに散らばる取引先情報を手作業で集めるのに時間がかかる。",
+    "solution": "Claude CodeをGmail・Googleカレンダー・Slackに接続し、取引先・商談・稼働情報を自動取得してDBに格納、freeeと連携し営業KPIや月次レポートを自動生成",
+    "effect": "レポートの見出し修正も指示一言で完結し、集計作業の手間を削減。",
+    "purposes": [
+      "経理・バックオフィス",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "Google Workspace/GAS",
+      "Chatwork/Slack"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 140,
+    "slug": "system-140",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT企業がLINE指示からDiscord告知画像をClaude Codeで自動投",
+    "challenge": "告知画像の作成とDiscord投稿を都度手作業で行う手間がかかっている。",
+    "solution": "Claude CodeがLINEのメッセージを受け取り、画像生成APIへのプロンプト送信から指定チャンネルへの投稿まで自動実行。",
+    "effect": "スマホのLINE操作だけでDiscord告知画像の生成から投稿までが完結するようになった。",
+    "purposes": [
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "fal.ai/gpt-image",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 141,
+    "slug": "system-141",
+    "industry": "IT・開発",
+    "category": "IT・開発",
+    "title": "IT担当者がNotebookLMとClaude Codeでスライドを自動生成",
+    "challenge": "プロンプトテキストから毎回手作業でスライドを作成するのに時間がかかる。",
+    "solution": "NotebookLMにプロンプトテキストを挿入してスライドを自動生成し、Claude Codeと組み合わせて実践資料として仕上げる。",
+    "effect": "スライド作成の手作業が大幅に削減され、資料化が素早くなる。",
+    "purposes": [
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 142,
+    "slug": "system-142",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "経理担当がレシートLINE送信だけでfreee自動仕訳",
+    "challenge": "レシートや領収書を会計ソフトに手入力する作業が毎月の負担になっている。",
+    "solution": "Claude CodeとMCPを組み合わせ、LINEで送ったレシート画像をOCRで読み取りfreeeへ自動仕訳・電子帳簿保存法対応で保存する一気通貫の仕組みを構築した。",
+    "effect": "別途APIプログラミングなしに仕訳作業が自動化され、手入力ミスと作業時間を削減。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "議事録・文字起こし",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "Salesforce",
+      "HubSpot",
+      "kintone",
+      "LINE",
+      "Notion",
+      "Google Workspace/GAS",
+      "n8n",
+      "Telegram",
+      "Chatwork/Slack",
+      "クラウドFAX",
+      "AutoCAD",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 143,
+    "slug": "system-143",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "多業種の企業がClaude Codeで主要業務を丸ごと自動化",
+    "challenge": "SEO記事作成・SNS投稿・名刺登録・レポート作成など反復業務に多くの人手がかかっている。",
+    "solution": "Claude CodeをSalesforce・KintoneなどのSaaSと連携させ、記事生成・投稿・名刺OCR登録・メール配信・スライド作成まで人介在なしに自律実行するフローを構",
+    "effect": "建設・EC・経理・セミナー集客など業種を問わず反復業務が自動化され、担当者の手作業が大幅に削減。",
+    "purposes": [
+      "経理・バックオフィス",
+      "SEO・ブログ",
+      "広告運用",
+      "SNS運用",
+      "クリエイティブ制作",
+      "書類OCR・データ化",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 144,
+    "slug": "system-144",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設会社がCAD不要で図面・積算・申請書類を自動生成",
+    "challenge": "図面作成から行政提出書類まで専門ソフトと手作業が混在し工数が膨大になる。",
+    "solution": "断面図データや積算ルールをコンテキストに渡しClaude Codeへ日本語で指示するだけで、SVG図面・施工計画書・見積書・工程表・行政提出レポートをPDF出力する。",
+    "effect": "図面から提出書類まで一連のエージェントフローで処理でき作業工数を削減できる。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "クラウドFAX",
+      "AutoCAD"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 145,
+    "slug": "system-145",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "複数業種のコンテンツをClaude Codeで同時並列生成",
+    "challenge": "薬局・美容・建設など異なる業種のコンテンツ制作が重なり、順番待ちで時間をロスしがち。",
+    "solution": "Claude Codeを複数セッション同時起動し、各業種のコンテンツ制作タスクを並列で自律実行させる。",
+    "effect": "人間の待機時間をほぼゼロにし、複数コンテンツを同時に完成できる。",
+    "purposes": [
+      "SEO・ブログ",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 146,
+    "slug": "system-146",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設業者がMCP非対応CADをClaude Codeで代替構築",
+    "challenge": "CADソフトがMCP非対応のためAIから直接操作できず、設計業務の自動化が難しい。",
+    "solution": "Claude Code自体にCAD機能を生成させて代替システムを構築。操作できない場合はComputer Use機能でPC画面を直接操作する方法も選択可能。",
+    "effect": "MCP非対応ソフトの壁を超えて、設計業務のAI活用が実現できるようになった。",
+    "purposes": [],
+    "tools": [
+      "Claude Code",
+      "AutoCAD",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 147,
+    "slug": "system-147",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設・土木の図面・帳票からPDF書類をClaude Codeで自動生成",
+    "challenge": "LP・バナー・ブログ・図面・議事録など多種の制作物を都度手作業で仕上げている。",
+    "solution": "Claude CodeとGoogle Workspace/GASを組み合わせ、建設・土木の図面や議事録からPDF帳票・申請書類を含む多種の成果物をワンクリックで生成できるようにした",
+    "effect": "業種固有の帳票や申請書類も含め、制作時間を大幅に削減できた。",
+    "purposes": [
+      "SEO・ブログ",
+      "広告運用",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "議事録・文字起こし",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Google Workspace/GAS"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 148,
+    "slug": "system-148",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設・土木業者がCAD操作と書類作成をClaude Codeで自動化",
+    "challenge": "CAD操作・積算・施工計画書など専門書類の作成に時間と専門知識が必要。",
+    "solution": "MCP対応のAutoCADとClaude Codeを連携し、図面生成・仕様書・工程表・安全計画書・PDF出力を自動化。",
+    "effect": "導入1日目に基本的な仕組みを構築できた。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "AutoCAD",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 149,
+    "slug": "system-149",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設土木会社が定型業務をClaude Codeでエージェント化",
+    "challenge": "建設・土木現場では図面作成や進捗管理など繰り返し発生する定型業務が担当者を圧迫しがち。",
+    "solution": "AutoCADのMCP連携を活用し、Claude Codeでデータ入出力が明確な業務から順にエージェント化して自動処理。",
+    "effect": "専門ツール連携により初日から基本的な自動化を構築できた。",
+    "purposes": [
+      "経理・バックオフィス",
+      "広告運用",
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "AutoCAD",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 150,
+    "slug": "system-150",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設会社がAutoCADをClaude CodeのMCPで操作",
+    "challenge": "CAD図面の作成・修正に専門知識が必要で、担当者以外が対応できない。",
+    "solution": "AutoCAD向けMCPサーバーをClaude Codeに接続し、日本語プロンプトだけでCAD図面のドラフト出力とヒアリングフォームHTMLを同時生成した。",
+    "effect": "CAD専門知識がなくても自然言語の指示だけで図面ドラフトを出力できた。",
+    "purposes": [],
+    "tools": [
+      "Claude Code",
+      "AutoCAD",
+      "MCP連携"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 151,
+    "slug": "system-151",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設業が議事録・工事記録から役所提出書類PDFをClaude Codeで自動生成",
+    "challenge": "工事記録や議事録を役所の定型フォーマットへ手作業で転記する負担が大きい。",
+    "solution": "入力フォームのテキストをClaude Codeが定型レイアウトに流し込み、HTMLプレビューからPDFを出力するWebアプリをワンセッションで生成する。",
+    "effect": "毎回同一品質の提出書類を自動生成でき転記作業を削減。",
+    "purposes": [
+      "RPA・業務自動化",
+      "議事録・文字起こし",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "クラウドFAX"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 152,
+    "slug": "system-152",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設業がトンネル単価比較・積算・工程管理をClaude Codeで自動化",
+    "challenge": "単価比較・積算書作成・工程表の作成をそれぞれ手作業で行い時間がかかる。",
+    "solution": "過去単価CSVをClaude Codeに読み込ませ、比較表・積算書・Ganttチャートを用途に応じてHTML/PDF形式で自動生成する。",
+    "effect": "単価比較から工程表印刷まで一連の作業を自動化。",
+    "purposes": [
+      "CS・サポート",
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "Microsoft365/Copilot"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 153,
+    "slug": "system-153",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設業が工事現場レポート・原価管理をClaude Codeで一元化",
+    "challenge": "工事現場のレポート作成・積算見積もり・案件別原価管理はツールが分散し、集計や転記に手間がかかっていた。",
+    "solution": "現場写真・計測データをClaude Codeに渡し、MCP経由でレポート生成・CAD連携・freee会計との接続による案件別原価管理を一気通貫で構築した。",
+    "effect": "現場レポート作成から原価管理まで複数業務を一元的に自動化できた。",
+    "purposes": [
+      "経理・バックオフィス",
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "AutoCAD",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 154,
+    "slug": "system-154",
+    "industry": "建設・土木",
+    "category": "建設・土木",
+    "title": "建設業がClaude Codeで施工管理計画書をPDF自動出力",
+    "challenge": "河川工事や建築現場の施工管理書類をゼロから作成する手間が現場担当者の負担になっている。",
+    "solution": "社内テンプレートをCLAUDE.mdに定義し、工事概要テキストを入力するとHTMLを生成、PuppeteerのCLIを呼び出して一発でPDF化する。",
+    "effect": "施工管理書類が数秒で生成でき、書類作成の負担が大きく減る。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 155,
+    "slug": "system-155",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "小売・ECが在庫発注をAIエージェントで自律化",
+    "challenge": "在庫の通知ルールを手動で設定しても、セールや倉庫状況への柔軟な対応が難しい。",
+    "solution": "AIエージェントがセール情報・倉庫の空き・発注先コストを総合判断し、最適な発注行動を自律的に実行。",
+    "effect": "担当者が指示するだけで発注業務が自動完結する体制を実現。",
+    "purposes": [
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [],
+    "author": "ゆい"
+  },
+  {
+    "id": 156,
+    "slug": "system-156",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "物流・小売がAIエージェントで発注業務を自律運用",
+    "challenge": "固定ルールの自動化では季節・在庫・発注先など複数条件を同時に考慮した判断ができない。",
+    "solution": "AIエージェントがSlack/Chatwork連携のもと、来週のセール・倉庫空き・発注先コストを自律判断して発注処理を継続実行。",
+    "effect": "ゴールを渡すだけで発注業務が継続的に自律稼働する状態を実現。",
+    "purposes": [
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Chatwork/Slack"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 157,
+    "slug": "system-157",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "小売・ECが複合条件の自動発注をAIエージェントで実現",
+    "challenge": "在庫・倉庫スペース・セール予定など複数条件が絡み、人手での発注判断が属人化しがち。",
+    "solution": "AIエージェントに在庫状況や販売予測など複数の文脈を渡し、発注先の選定まで自律的に判断・実行させる。",
+    "effect": "複合条件を横断する発注判断を自動化し、担当者の判断負荷を削減。",
+    "purposes": [
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [],
+    "author": "あおい"
+  },
+  {
+    "id": 158,
+    "slug": "system-158",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "物流・小売がAIエージェントで状況判断型の在庫管理を自動化",
+    "challenge": "在庫数だけでなく保管スペースや販売予測など文脈が複雑で、固定ルールの自動化では対応しきれない。",
+    "solution": "AIエージェントに複数の状況情報を与え、来週の需要や在庫・スペースを総合的に判断して自律的に動作させる。",
+    "effect": "状況変化に応じた柔軟な在庫・発注管理を自動化し、判断ミスを低減。",
+    "purposes": [
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [],
+    "author": "みお"
+  },
+  {
+    "id": 159,
+    "slug": "system-159",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "小売・物流の発注業務をエージェントが状況判断し自律実行",
+    "challenge": "在庫管理や発注判断に複数の条件が絡み、担当者の確認・判断作業が頻発する。",
+    "solution": "Claude Codeに/goalでゴールを渡し、在庫減少の検知から発注先比較・自律発注まで状況判断を伴う一連の処理を自動化した。",
+    "effect": "担当者の判断介在なしに発注業務が完結するようになった。",
+    "purposes": [
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 160,
+    "slug": "system-160",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "EC事業者が化粧品販売サイトの運用基盤を自動構築",
+    "challenge": "出品・会計・集客それぞれのシステム連携に専門知識と構築工数がかかる。",
+    "solution": "2行の自然言語指示からClaude CodeがShopify・Amazon・楽天API連携仕様、freee用CSV出力、LTV分析、在庫突合を含むダッシュボードを自動生成する。",
+    "effect": "実APIを繋ぎ込むだけで稼働できる販売運用基盤を短時間で用意できる。",
+    "purposes": [
+      "経理・バックオフィス",
+      "CS・サポート",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Shopify",
+      "Amazon/楽天 API"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 161,
+    "slug": "system-161",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "小売・物流の在庫管理をClaude Codeでエージェント化",
+    "challenge": "在庫管理の自動化でif-then条件の固定ルールでは複雑な発注判断に対応できない。",
+    "solution": "Claude Codeにゴールだけ渡し、在庫・コスト・セール情報を総合した多段階推論でサプライヤー発注を自律実行させる。",
+    "effect": "人手による発注判断を自律エージェントが代替し、業務負担を軽減。",
+    "purposes": [
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "n8n",
+      "Chatwork/Slack"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 162,
+    "slug": "system-162",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "小売・物流の在庫発注をAIエージェントで動的自動化",
+    "challenge": "在庫管理の条件が複雑で、固定ルールのワークフローだけでは対応しきれないケースが多い。",
+    "solution": "n8nの固定ワークフローと使い分け、需要・在庫・リードタイムを総合判断するAIエージェントをClaude Codeで実装する。",
+    "effect": "複数条件が交差する動的な発注処理を自律実行できるようになる。",
+    "purposes": [
+      "採用・HR",
+      "RPA・業務自動化",
+      "営業・CRM",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "n8n",
+      "Chatwork/Slack"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 163,
+    "slug": "system-163",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "小売ECの出品・在庫・経理をClaude Codeで一括自動化",
+    "challenge": "Shopify・Amazon・楽天の運用で売上分析・出品・在庫管理をバラバラに手作業で行っている。",
+    "solution": "各プラットフォームのAPIをClaude Codeと連携させ、商品説明文生成・価格改定・在庫アラート・freee仕訳までをエージェントが自律実行する設計にした。",
+    "effect": "人間は例外対応のみとなり、EC運用全体をほぼノーコードで回せるようになった。",
+    "purposes": [
+      "経理・バックオフィス",
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "Shopify",
+      "Amazon/楽天 API"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 164,
+    "slug": "system-164",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "短い指示文からシステム仕様書をClaude Codeで自動生成",
+    "challenge": "システム要件を整理して仕様書やダッシュボードを作るのに時間とスキルがかかる。",
+    "solution": "「満期2ヶ月前に更新メールを送る」など数行のプロンプトをClaude Codeに渡し、システム仕様書とダッシュボードHTMLを自動生成させた。",
+    "effect": "短い指示から実用的な仕様書とHTMLが即座に出力されるようになった。",
+    "purposes": [
+      "経理・バックオフィス",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 165,
+    "slug": "system-165",
+    "industry": "小売・EC",
+    "category": "小売・EC",
+    "title": "小売ECがKPIモニタリングをClaude Codeで自動化",
+    "challenge": "毎日のKPI集計・更新作業に時間を取られ、担当者の負担が大きい。",
+    "solution": "Claude Codeに概要指示を出すだけでSQL生成からExcel/CSVエクスポートまでの一連システムを自動構築。",
+    "effect": "日次モニタリングの更新作業が自動化され、手作業が不要になった。",
+    "purposes": [
+      "CS・サポート",
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Google Workspace/GAS",
+      "Microsoft365/Copilot"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 166,
+    "slug": "system-166",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "税理士・経理担当が領収書処理をClaude Codeで自動化",
+    "challenge": "領収書の手入力・仕訳・月次資料作成に毎月多くの時間が取られる。",
+    "solution": "LINEに領収書を送るとOCRで読み取り、電子帳簿保存法対応の形でfreee・マネーフォワードへ自動仕訳・保存し、試算表やPL・BSも自動生成。",
+    "effect": "定型の経理作業が自動化され、税務対応の精度と速度が向上した。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "LINE",
+      "Telegram",
+      "Chatwork/Slack"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 167,
+    "slug": "system-167",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "税理士事務所がレシートOCRから決算書生成をClaude Codeで全自動化",
+    "challenge": "レシートの仕訳入力から決算書作成まで手作業が多く、担当者の工数を圧迫している。",
+    "solution": "LINEに送ったレシート画像をClaude CodeがMCP経由でfreee・マネーフォワードに接続し、OCR→仕訳→ファイルボックス登録→決算書生成まで実行する。",
+    "effect": "仕訳登録から財務書類取得・税務リスク指摘まで全自動で完結。",
+    "purposes": [
+      "経理・バックオフィス",
+      "人事・労務",
+      "MEO・店舗集客",
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "資金繰り・融資・補助金"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "LINE",
+      "Telegram",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 168,
+    "slug": "system-168",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "税理士・経理担当がfreeeをMCPで仕訳・決算書自動生成",
+    "challenge": "レシートや銀行明細を手入力で仕訳する作業に時間とミスのリスクが生じる。",
+    "solution": "freee MCPをClaude Codeに接続し、OCRで読み取った明細を仕訳ルールに従って自動分類し、PL・BSレポートと税務リスクフラグを自動生成。",
+    "effect": "手入力の仕訳作業が自動化され、高リスク経費の見落とし防止にも寄与。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 169,
+    "slug": "system-169",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "経理・税理士がレシート画像送信だけでfreeeへ自動仕訳",
+    "challenge": "レシートを都度手入力で仕訳・保存する作業が経理担当と税理士の双方に負担をかける。",
+    "solution": "LINE等でレシート画像を送信するとClaude CodeがOCRで読み取り、仕訳ルールで勘定科目を判定してfreeeへ電帳法要件を満たす形で自動保存・決算書更新。",
+    "effect": "レシートの手入力が不要になり、税務リスクの自動チェックも同時に実現。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "資金繰り・融資・補助金"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "LINE",
+      "Telegram",
+      "Chatwork/Slack",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 170,
+    "slug": "system-170",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "税理士がレシート送信だけで電子帳簿対応仕訳を自動化",
+    "challenge": "レシート整理・仕訳入力・電子帳簿保存法対応を手作業で行う負担が大きい。",
+    "solution": "LINE等Webhookで受信したレシート画像をClaude CodeがOCR処理し、仕訳ルールを適用してfreee/マネーフォワードへ電子帳簿保存法準拠形式で保存・PL/BS/C",
+    "effect": "税務リスクフラグ付きの財務三表まで同一パイプラインで自動出力できる。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "議事録・文字起こし",
+      "資金繰り・融資・補助金"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "LINE",
+      "Telegram",
+      "Chatwork/Slack",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 171,
+    "slug": "system-171",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "税理士・経理担当者がレシート送付だけで仕訳〜会計ソフト連携をClaude Cod",
+    "challenge": "レシートや明細の仕訳入力・会計ソフトへの転記を手作業で行うと時間とミスのリスクが生じやすい。",
+    "solution": "レシートをTelegram/Chatworkに送るとClaude CodeがOCRで読み取り、事前定義した勘定科目・軽減税率ルールに基づいて自動分類し、freee・マネーフォワード",
+    "effect": "レシート撮影から帳簿更新まで自動化され、税務リスクのヒートマップ生成にも対応できた。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "Telegram",
+      "Chatwork/Slack"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 172,
+    "slug": "system-172",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "税理士・経理部門の仕訳〜財務書類作成を自動化",
+    "challenge": "レシート整理から仕訳・財務書類作成まで経理担当者の手作業が多い。",
+    "solution": "LINEで送ったレシートをClaude CodeがOCR読み取りし、勘定科目判定からfreee・マネーフォワードへの連携・財務書類自動生成まで一括処理。",
+    "effect": "レシート送信だけで仕訳〜書類作成が完了し、経理担当の手作業が大幅に削減された。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "資金繰り・融資・補助金"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "LINE",
+      "Chatwork/Slack"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 173,
+    "slug": "system-173",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "税理士・経理担当者が税務リスクチェックをClaude Codeで自動化",
+    "challenge": "経費計上の否認リスクや仕訳ミスを人手でチェックするには見落としや工数増加が起きやすい。",
+    "solution": "Claude Codeにルールを定義させ、リスクのある仕訳への警告・按分計算・節税提案・決算書のIR資料化まで自動処理。",
+    "effect": "税務調査を意識したリスクチェックと節税提案を自動で継続運用できる体制が完成。",
+    "purposes": [
+      "経理・バックオフィス",
+      "RPA・業務自動化",
+      "リーガル・契約",
+      "上場・IR・ISO"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 174,
+    "slug": "system-174",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "税理士・不動産・医療がClaude Codeで業務を横断自動化",
+    "challenge": "業種ごとに異なる帳票・工程管理・顧客対応を手作業でこなす工数が多い。",
+    "solution": "Claude CodeをkintoneやObsidianと連携し、経費仕訳・議事録・CRM・工程表など多業種の業務を自動処理。",
+    "effect": "バックオフィスから集客まで幅広い業務の効率化を同時に達成。",
+    "purposes": [
+      "経理・バックオフィス",
+      "SEO・ブログ",
+      "RPA・業務自動化",
+      "議事録・文字起こし",
+      "営業・CRM",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "kintone",
+      "LINE",
+      "Obsidian",
+      "クラウドFAX",
+      "AutoCAD"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 175,
+    "slug": "system-175",
+    "industry": "税理士",
+    "category": "税理士",
+    "title": "税理士がfreee×マネーフォワードをClaude Codeで税務リスク自動検出",
+    "challenge": "複数の会計ツールのデータ突合や否認リスクの高い科目チェックは、熟練した手作業に頼りがちで見落としリスクがある。",
+    "solution": "freeeとマネーフォワードをMCP接続し、発生主義ズレ・按分科目の自動フラグ立て・法人IR想定問答QAの生成まで一連のエージェントとして実装した。",
+    "effect": "否認リスクの高い科目を自動検出し、税務チェックの精度が向上した。",
+    "purposes": [
+      "経理・バックオフィス",
+      "RPA・業務自動化",
+      "上場・IR・ISO"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 176,
+    "slug": "system-176",
+    "industry": "飲食",
+    "category": "飲食",
+    "title": "飲食店が短い指示だけで発注システムをAI自動生成",
+    "challenge": "発注業務の自動化に着手したくても、仕様書作成やシステム開発に時間とコストがかかりすぎる。",
+    "solution": "「売れ筋を判断して発注を自動化して」という短い指示から、AIが在庫回転・季節・賞味期限・承認フローを含む発注システムのUIまで自律生成。",
+    "effect": "短い指示だけで実用的な発注システムが自動完成。",
+    "purposes": [
+      "広告運用",
+      "SNS運用",
+      "RPA・業務自動化",
+      "スクレイピング・調査",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [],
+    "author": "みお"
+  },
+  {
+    "id": 177,
+    "slug": "system-177",
+    "industry": "飲食",
+    "category": "飲食",
+    "title": "飲食業の経費仕訳ルールをClaude Code Skillsに登録",
+    "challenge": "「交際費か会議費か」など業種固有の仕訳判断を毎回AIに説明し直す手間がかかる。",
+    "solution": "`.claude/skills/`に「飲食10,000円超は交際費」などの判断基準を記述し、Claude Codeが次回以降自動参照する構成にする。",
+    "effect": "同じ指示の入力が不要になり、処理時間が大幅に短縮。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 178,
+    "slug": "system-178",
+    "industry": "飲食",
+    "category": "飲食",
+    "title": "会計ソフト連携の仕訳ルールをClaude Codeに永続記憶",
+    "challenge": "勘定科目の判断ルールをAIに毎回説明し直しており、仕訳作業が属人化している。",
+    "solution": "CLAUDE.mdに勘定科目・取引先ごとの仕訳条件を自然言語で記述し、Claude Codeがfreee・マネーフォワードと連携して自動仕訳する。",
+    "effect": "レシートOCRから仕訳帳登録・ファイルボックス保存まで自動化。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 179,
+    "slug": "system-179",
+    "industry": "飲食",
+    "category": "飲食",
+    "title": "飲食店が在庫・天候データ連携で自律発注を自動化",
+    "challenge": "在庫・予約・天候を考慮した発注判断を毎日手作業で行うのは負担が大きい。",
+    "solution": "Claude Codeへ業種と業務概要を2行で指示するだけで、データ連携・発注ドラフト・店長承認フロー・発注書送付の仕様書とモックダッシュボードを自律生成する。",
+    "effect": "実データ接続後すぐ稼働できる自律発注システムの土台を短期間で構築できる。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 180,
+    "slug": "system-180",
+    "industry": "飲食",
+    "category": "飲食",
+    "title": "飲食・各業種向けLPをClaude Codeで高速生成",
+    "challenge": "LP・ホームページ制作に時間と費用がかかり、公開までの速度が遅い。",
+    "solution": "Claude Codeに業種と要件を伝えるだけで、問い合わせフォーム・FAQ・サービスフロー付きのLPを複数パターン同時生成。",
+    "effect": "短時間で実用的なLPが複数完成し、制作コストと時間を大幅に削減できた。",
+    "purposes": [
+      "クリエイティブ制作",
+      "CS・サポート",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 181,
+    "slug": "system-181",
+    "industry": "飲食",
+    "category": "飲食",
+    "title": "飲食・小売が在庫管理と発注をClaude Codeで自動化",
+    "challenge": "飲食・小売では在庫の目視確認と手動発注が欠品やロスの原因になりやすい。",
+    "solution": "2行程度の指示からClaude Codeが在庫モニタリング・欠品予測・発注書生成・二段階承認フロー・履歴管理まで備えたシステムを自律構築。",
+    "effect": "欠品リスクを事前に検知し、発注から承認まで一連の流れが自動化。",
+    "purposes": [
+      "RPA・業務自動化",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 182,
+    "slug": "system-182",
+    "industry": "飲食",
+    "category": "飲食",
+    "title": "飲食店がLINE出勤管理をGASで自動化",
+    "challenge": "飲食店ではスタッフの出勤連絡がLINEに散在し、手作業での集計に手間がかかる。",
+    "solution": "Claude CodeがGASスクリプトを生成し、LINEのWebhookからスプレッドシートへ出退勤テキストを自動記録・メニューバーも追加実装。",
+    "effect": "出勤集計の手入力作業をゼロに削減。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Google Workspace/GAS"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 183,
+    "slug": "system-183",
+    "industry": "ホテル・宿泊",
+    "category": "ホテル・宿泊",
+    "title": "宿泊施設がSNS運用フローをサブエージェントで自動構築",
+    "challenge": "SNS案件の企画から投稿予約まで多工程あり、担当者の工数が大きい。",
+    "solution": "Claude Codeにゴールと大まかな流れを2行程度で渡し、リサーチ・台本・画像・音声・投稿予約まで仕様書の生成と実装を自律実行させた。",
+    "effect": "詳細な指示書なしにSNS運用の一連フローが自動化された。",
+    "purposes": [
+      "SNS運用",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 184,
+    "slug": "system-184",
+    "industry": "ホテル・宿泊",
+    "category": "ホテル・宿泊",
+    "title": "ホテルがObsidian×Claude CodeでSEO記事をWordPress",
+    "challenge": "集客用ブログ記事を定期的に量産・公開する人的リソースが不足している。",
+    "solution": "ObsidianのMarkdownをClaude Codeが読み込んでSEO最適化記事を生成し、WordPress REST APIで予約投稿まで自動実行する。",
+    "effect": "大量記事の自動投稿による継続的なオーガニック集客を実現。",
+    "purposes": [
+      "評価・育成",
+      "SEO・ブログ",
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "GitHub",
+      "Obsidian",
+      "WordPress",
+      "fal.ai/gpt-image"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 185,
+    "slug": "system-185",
+    "industry": "ホテル・宿泊",
+    "category": "ホテル・宿泊",
+    "title": "メディア運営者がClaude Code×n8nで記事収益化パイプラインを構築",
+    "challenge": "トレンド調査から記事投稿・SNS拡散まで全工程を手動でこなすと運用が回らない。",
+    "solution": "Claude Codeに自然言語で指示するだけでシステム設計・実装コードを生成し、n8nでWordPress投稿とX文案作成を自動化する。",
+    "effect": "数行の指示から記事投稿・SNS連携システムを短期間で稼働。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code",
+      "n8n",
+      "WordPress"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 186,
+    "slug": "system-186",
+    "industry": "ホテル・宿泊",
+    "category": "ホテル・宿泊",
+    "title": "ホテルがSNS動画量産をClaude Codeで自動化",
+    "challenge": "ホテルのSNS運用で投稿ネタの収集から台本作成まで手間がかかりすぎる。",
+    "solution": "Claude Codeに2行の指示を与えるだけで、トレンド取得・台本生成・薬機法チェック・予約投稿までのシステムを自動構築する。",
+    "effect": "18分で13本の台本を生成し、人間レビュー後に投稿するフローを確立。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "スクレイピング・調査",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 187,
+    "slug": "system-187",
+    "industry": "ホテル・宿泊",
+    "category": "ホテル・宿泊",
+    "title": "ホテル業のSEO記事生成〜WordPress投稿を自動化",
+    "challenge": "SEO記事の作成・投稿に時間と人手がかかり、継続的な更新が難しい。",
+    "solution": "Claude CodeとObsidian・Google検索APIを連携し、トレンド調査・記事生成・品質チェック・WordPress予約投稿まで自律実行。人間は承認のみ担当。",
+    "effect": "大量記事の継続投稿が実現し、アクセス数と売上の大幅な伸びにつながった。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "RPA・業務自動化",
+      "スクレイピング・調査"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian",
+      "WordPress"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 188,
+    "slug": "system-188",
+    "industry": "ホテル・宿泊",
+    "category": "ホテル・宿泊",
+    "title": "ホテル業がSEOブログ運用をClaude CodeとWordPressで自動化",
+    "challenge": "エリアやターゲットに合った記事を継続的に量産する手間がかかる。",
+    "solution": "ヒアリング情報をClaude Codeに入力し、キーワード選定・品質スコアリング・本文生成・WordPress予約投稿までを一気通貫で自動実行する。",
+    "effect": "エリア×キーワードのマトリクスで記事量産が可能に。",
+    "purposes": [
+      "SEO・ブログ",
+      "MEO・店舗集客",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "WordPress"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 189,
+    "slug": "system-189",
+    "industry": "ホテル・宿泊",
+    "category": "ホテル・宿泊",
+    "title": "宿泊業が住民マッチングWebアプリをClaude Codeで構築",
+    "challenge": "宿泊・地域連携業務で複数DBが絡むWebアプリ開発にエンジニア不在のまま対応を迫られる。",
+    "solution": "Claude Codeへ2〜3行の自然言語指示を与えるだけで、DB設計・マッチングロジック・承認フロー・管理ダッシュボードを自律生成しデプロイ。",
+    "effect": "要件定義からデプロイまでを非エンジニアが完結。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 190,
+    "slug": "system-190",
+    "industry": "教育・スクール",
+    "category": "教育・スクール",
+    "title": "教育・スクール向け 安心案内・FAQ応答システム",
+    "challenge": "このセミナー/スクールに追加販売（アップセル）やしつこい勧誘はありますか？最後に高額請求されたりしませんか？",
+    "solution": "追加販売・アップセル・しつこい勧誘は一切ない、とZoomで明言されています。 ・セミナー自体は無料で視聴でき、見るだけなら費用は発生しません ・面談は『お互いを知る場』で、合わなければ断ってOK。その場で強制クロージングはありません ・『最後にお金を請求される/勧誘が続く』という心配は不要。安心して内容に集中してください 不安な点は遠慮なくチャットで質問すれば、その場で答えてもらえます。",
+    "effect": "受講前の不安をその場で解消し、安心して内容を検討できる案内体制を整える。",
+    "purposes": [
+      "CS・サポート",
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 191,
+    "slug": "system-191",
+    "industry": "教育・スクール",
+    "category": "教育・スクール",
+    "title": "スクール・企業がAI活用時の個人情報をサンプルデータで代替",
+    "challenge": "顧客情報や機密データをAIに渡すことへの不安から、活用の範囲が広げられない。",
+    "solution": "「個人情報はAIに渡さない」設計を徹底し、実務での検証にはサンプルデータを使うルールをClaude Code運用の基本方針として設定。",
+    "effect": "情報漏洩リスクを設計段階で排除し、安心してAI活用を進められる体制が整った。",
+    "purposes": [
+      "MEO・店舗集客"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 192,
+    "slug": "system-192",
+    "industry": "教育・スクール",
+    "category": "教育・スクール",
+    "title": "教育機関がAI活用時のセキュリティ運用を整備",
+    "challenge": "AIツールへの情報入力に不安を感じ、導入をためらうスタッフが多い。",
+    "solution": "機密・個人情報はAIに渡さずサンプルデータで運用する方針を定め、Claude Codeを安全に活用できる環境を整備した。",
+    "effect": "過度な懸念が解消され、現場での活用が前進した。",
+    "purposes": [
+      "MEO・店舗集客",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Google Workspace/GAS"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 193,
+    "slug": "system-193",
+    "industry": "教育・スクール",
+    "category": "教育・スクール",
+    "title": "教育スクールが集客〜販売をClaude CodeとLINEで一人運営",
+    "challenge": "集客・セミナー・面談・クロージングを少人数でこなすと販管費がかさみ価格競争力が落ちる。",
+    "solution": "Claude Code×LINEでSEO集客・SNS投稿・セミナー誘導・クロージングまでを1人のオペレーションで自動化。",
+    "effect": "販管費を大幅に抑え低価格でのスクール運営を1人で実現。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 194,
+    "slug": "system-194",
+    "industry": "教育・スクール",
+    "category": "教育・スクール",
+    "title": "教育スクールがClaude Codeで運営コストを大幅削減",
+    "challenge": "スクール運営は複数スタッフ分の広告費・人件費がかさみ価格競争が難しい。",
+    "solution": "Claude Codeで集客・セミナー・CS・デザインを一人でこなし、他社複数チーム分の業務を自動化。",
+    "effect": "他社と比べて大幅に低い受講料での提供を実現。",
+    "purposes": [
+      "クリエイティブ制作",
+      "CS・サポート"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 195,
+    "slug": "system-195",
+    "industry": "不動産",
+    "category": "不動産",
+    "title": "不動産会社がFAX送受信をClaude Codeで自動化",
+    "challenge": "不動産業界ではFAXが現役で使われ続け、送受信の手作業対応に時間と手間がかかっている。",
+    "solution": "LINEで送信指示するだけで自動送信でき、受信FAXはOCRで読み取りn8n経由でLINEに自動転送される仕組みをClaude Codeで構築。",
+    "effect": "FAXの送受信対応が手放しで完結し、担当者の作業負荷が大幅に軽減。",
+    "purposes": [
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "n8n",
+      "Telegram",
+      "Chatwork/Slack",
+      "クラウドFAX"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 196,
+    "slug": "system-196",
+    "industry": "不動産",
+    "category": "不動産",
+    "title": "建設・不動産・製造業がClaude Codeで業務自動化を実現",
+    "challenge": "非IT業種では既存の業務フローにデジタル化が進んでおらず、図面・書類・問い合わせ対応が手作業のまま残りやすい。",
+    "solution": "AutoCADやMicrosoft365と連携したClaude Codeで施工図管理・積算・不動産問い合わせ自動返信・助成金申請書類作成などを既存フローに組み込んで自動化。",
+    "effect": "IT専門知識がなくても、既存の業務フローにそのままAI自動化を導入できた。",
+    "purposes": [
+      "CS・サポート",
+      "RPA・業務自動化",
+      "資金繰り・融資・補助金",
+      "提出書類・申請",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "Microsoft365/Copilot",
+      "AutoCAD"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 197,
+    "slug": "system-197",
+    "industry": "不動産",
+    "category": "不動産",
+    "title": "建設・不動産業がFAX受信をOCRでLINE・Chatworkに転送",
+    "challenge": "FAXで届く受発注書を手作業でテキスト化し、担当者に転送する手間が大きい。",
+    "solution": "クラウドFAXサービスをClaude CodeのMCP経由で接続し、受信時にOCRでテキスト化してN8Nを使いChatwork・LINEへ自動転送する構成を組んだ。",
+    "effect": "FAX受信から担当者への転送通知までが自動化され、手作業が不要になった。",
+    "purposes": [
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "提出書類・申請",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Chatwork/Slack",
+      "クラウドFAX",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 198,
+    "slug": "system-198",
+    "industry": "不動産",
+    "category": "不動産",
+    "title": "不動産会社がFAX受信からLINE通知・返信文書作成を自動化",
+    "challenge": "不動産・建設業ではFAXが今も主流で、受信確認や内容把握・返信文書作成に毎回手作業が発生する。",
+    "solution": "クラウドFAXとLINEを連携させ、Claude Codeが受信トリガーでOCR処理・内容解析・返信文書生成まで自動実行するフローを構築した。",
+    "effect": "FAX受信から返信文書作成までの手作業をゼロに近づけた。",
+    "purposes": [
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "クラウドFAX"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 199,
+    "slug": "system-199",
+    "industry": "不動産",
+    "category": "不動産",
+    "title": "不動産・建設業が現場写真からSNS動画をClaude Codeで自動生成",
+    "challenge": "現場写真をSNS用動画に仕上げて投稿する作業に手間と時間がかかる。",
+    "solution": "Claude CodeからRunway等の動画生成APIを呼び出し、字幕付与・修正・SNS自動投稿までのフローを一括構築。",
+    "effect": "自然言語での指摘だけで不具合が修正され、動画投稿の一連作業が自動化された。",
+    "purposes": [
+      "SNS運用",
+      "クリエイティブ制作",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "Remotion/動画"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 200,
+    "slug": "system-200",
+    "industry": "社労士",
+    "category": "社労士",
+    "title": "税理士がfreee APIで税務リスク分析を自動化",
+    "challenge": "決算書や申告書の下書き作成に多大な時間と確認工数がかかる。",
+    "solution": "freee/マネーフォワードAPIをMCP経由でClaude Codeに接続し、仕訳・経費・固定資産データから税務リスクコメントや申告書下書きをMarkdown/HTML形式で自動",
+    "effect": "税務リスク分析から申告書下書きまでを同一パイプラインで処理できる。",
+    "purposes": [
+      "経理・バックオフィス",
+      "人事・労務",
+      "RPA・業務自動化",
+      "資金繰り・融資・補助金"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 201,
+    "slug": "system-201",
+    "industry": "社労士",
+    "category": "社労士",
+    "title": "税理士・飲食業の経理処理をMCPとClaude Codeで自動化",
+    "challenge": "レシートや請求書の仕訳・保存・財務書類反映に毎月多くの手作業が発生する。",
+    "solution": "ChatworkにレシートやPDFを送るだけでClaude CodeがOCR→仕訳→freee/マネーフォワードへの記帳・BS/PL反映・税務リスクチェックまでMCP経由で自動処理",
+    "effect": "仕訳・記帳・財務書類作成の一連作業を大幅に省力化。",
+    "purposes": [
+      "経理・バックオフィス",
+      "人事・労務",
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "議事録・文字起こし",
+      "営業・CRM",
+      "資金繰り・融資・補助金"
+    ],
+    "tools": [
+      "freee",
+      "マネーフォワード",
+      "Salesforce",
+      "Chatwork/Slack",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 202,
+    "slug": "system-202",
+    "industry": "社労士",
+    "category": "社労士",
+    "title": "士業事務所がfreee MCPで申告・労務業務を自動化",
+    "challenge": "社労士・行政書士などの専門業務でFAXのOCR処理や電帳法対応の書類仕分けが手作業で煩雑。",
+    "solution": "freee MCPを活用し、レシート仕分け・法人税申告・人事労務など専門業務の処理を自動化。",
+    "effect": "手作業だった書類処理や申告業務の自動化が専門領域にも広がった。",
+    "purposes": [
+      "経理・バックオフィス",
+      "人事・労務",
+      "書類OCR・データ化",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "freee",
+      "MCP連携"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 203,
+    "slug": "system-203",
+    "industry": "社労士",
+    "category": "社労士",
+    "title": "税理士・社労士事務所の経理業務をClaude Codeで自動化",
+    "challenge": "レシートの仕訳・月次帳票作成・請求書発行など経理業務が毎月の大きな工数になっている。",
+    "solution": "LINE・Telegramで受け取ったレシートをOCR処理し、Claude Codeがfreee・マネーフォワードへの自動仕訳・月次帳票生成・税務リスクチェック・請求書作成まで行う",
+    "effect": "経理業務の大部分が自動化され、人の確認工数を大幅に削減できた。",
+    "purposes": [
+      "経理・バックオフィス",
+      "人事・労務",
+      "書類OCR・データ化",
+      "RPA・業務自動化",
+      "資金繰り・融資・補助金",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "LINE",
+      "Telegram",
+      "Chatwork/Slack"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 204,
+    "slug": "system-204",
+    "industry": "弁護士",
+    "category": "弁護士",
+    "title": "カスタマーサポートがLINE問い合わせをClaude Codeで自動化",
+    "challenge": "LINEやChatWorkへの問い合わせ対応は件数が多く、回答作成と返信に担当者の時間が取られがち。",
+    "solution": "Claude Codeがナレッジベースを参照して回答案を生成し、Notionで承認後に自動返信。個人情報や法律相談・クレームは人間にエスカレーションするルールも実装。",
+    "effect": "定型問い合わせの対応が自動化され、担当者は複雑なケースに集中できる。",
+    "purposes": [
+      "CS・サポート",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Notion"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 205,
+    "slug": "system-205",
+    "industry": "弁護士",
+    "category": "弁護士",
+    "title": "IT・法務部門がClaude Codeに個人情報ガバナンスを組み込み",
+    "challenge": "顧客管理システムで個人情報を扱う際のセキュリティルール徹底が難しい。",
+    "solution": "Claude Codeにセキュリティガバナンス設定ファイルと弁護士エスカレーションルールを組み込み、AIが自動チェック。",
+    "effect": "個人情報の取り扱い誤りを設計段階で防止できる体制を構築。",
+    "purposes": [
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 206,
+    "slug": "system-206",
+    "industry": "弁護士",
+    "category": "弁護士",
+    "title": "弁護士事務所がGmailをClaude CodeでCRMに自動転記",
+    "challenge": "弁護士事務所ではメール対応履歴のCRMへの手動転記に時間がかかりミスも起きやすい。",
+    "solution": "Gmail MCPでメールを取得しClaude Codeが取引先・案件名にマッピング後、Salesforceの活動履歴に自動POST、機密メールの差し戻しルールもファイルで管理。",
+    "effect": "メール転記作業を自動化し入力ミスを削減。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Claude Code",
+      "Salesforce",
+      "Google Workspace/GAS",
+      "MCP連携"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 207,
+    "slug": "system-207",
+    "industry": "会計士",
+    "category": "会計士",
+    "title": "会計士がfreeeデータからIR資料を自動作成",
+    "challenge": "月次決算データを株主向け資料に整形する作業に毎回まとまった時間がかかる。",
+    "solution": "freee MCPで月次データを取得しClaude Codeに指示するだけで、PL・BS・CFを決算書フォーマットで出力し株主総会の想定問答付きIR資料を生成する。",
+    "effect": "決算書からIR資料・想定問答までをワンフローで仕上げられる。",
+    "purposes": [
+      "経理・バックオフィス",
+      "CS・サポート",
+      "RPA・業務自動化",
+      "資金繰り・融資・補助金",
+      "提出書類・申請",
+      "上場・IR・ISO"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "MCP連携"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 208,
+    "slug": "system-208",
+    "industry": "会計士",
+    "category": "会計士",
+    "title": "上場企業役員がClaude Codeで経営判断の最先端情報を獲得",
+    "challenge": "AIエージェント活用の最新知識が社内になく、業務効率化・新事業への対応が遅れがち。",
+    "solution": "Claude Codeの専門知識を習得し、業務効率化・株価向上・新事業創出に直結するAI活用戦略を経営層が主導。",
+    "effect": "役員自身がAI活用の判断軸を持ち、社内推進スピードが向上。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 209,
+    "slug": "system-209",
+    "industry": "人材・派遣",
+    "category": "人材・派遣",
+    "title": "設備メンテナンス業が顧客受付から派遣手配まで自動化",
+    "challenge": "受付・日程調整・スタッフ手配・レビュー収集をすべて手動対応しており人手不足が深刻。",
+    "solution": "2行のゴール指示をClaude Codeに投げると受付UI・スタッフ自動アサイン・日程調整・レビュー収集・管理画面までを約15分で自律生成する。",
+    "effect": "人間はレビュー承認のみ担当する構成を短時間で構築できる。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 210,
+    "slug": "system-210",
+    "industry": "人材・派遣",
+    "category": "人材・派遣",
+    "title": "設備メンテ会社が受付からフォローまでClaude Codeで自動化",
+    "challenge": "設備メンテナンス業では受付・振り分け・日程調整・完了報告まで多くの手作業が発生している。",
+    "solution": "2行程度の指示からClaude Codeが自動受付・スタッフ派遣割り当て・顧客通知・完了報告・フォローレポート生成まで一気通貫のシステムを自律構築。",
+    "effect": "受付から完了報告までの一連の対応フローが短時間で自動化。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 211,
+    "slug": "system-211",
+    "industry": "メーカー・製造",
+    "category": "メーカー・製造",
+    "title": "製造業の業務エージェント監視をA2A構成で自動化",
+    "challenge": "複数エージェントの動作確認やエラー対応に人手が必要で、管理コストが下がりにくい。",
+    "solution": "エージェントの上にさらに管理エージェントを重ねるA2A構成を設計し、段階的に人間の介在箇所を減らしていく。",
+    "effect": "エラー対応を含む監視業務を自律化し、人的負担を段階的に削減できる。",
+    "purposes": [
+      "RPA・業務自動化"
+    ],
+    "tools": [],
+    "author": "あおい"
+  },
+  {
+    "id": 212,
+    "slug": "system-212",
+    "industry": "メーカー・製造",
+    "category": "メーカー・製造",
+    "title": "メーカー担当者が音声メモをClaude Codeでコンテンツ化",
+    "challenge": "思考を口頭でまとめても文書化・資料化に別途時間がかかり、アイデアが埋もれやすい。",
+    "solution": "音声録音を文字起こしてObsidianに保存し、Claude Codeがそのノートを読み込んで要約・図解・スライド・ブログ記事を自動生成する。",
+    "effect": "話すだけで複数形式のコンテンツが自動生成され、制作工数を削減。",
+    "purposes": [
+      "SEO・ブログ",
+      "クリエイティブ制作",
+      "RPA・業務自動化",
+      "議事録・文字起こし"
+    ],
+    "tools": [
+      "Claude Code",
+      "Obsidian"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 213,
+    "slug": "system-213",
+    "industry": "医療",
+    "category": "医療",
+    "title": "医療機関がClaude Code導入前にコンプライアンス体制を整備",
+    "challenge": "医療現場ではAI活用への期待がある一方、法規制とセキュリティの壁が高い。",
+    "solution": "臨床検査技師と連携しながらClaude Codeの医療業務への適用可能性を検証し、必要なコンプライアンス確認を実施。",
+    "effect": "医療AI導入における課題と必要な準備を事前に明確化。",
+    "purposes": [
+      "リーガル・契約"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 214,
+    "slug": "system-214",
+    "industry": "医療",
+    "category": "医療",
+    "title": "医療機関の売上予測レポートをClaude Code＋GASで自動出力",
+    "challenge": "医療機関では収益CSVの集計・トレンド分析・アクション立案を毎回手動で行うため時間がかかる。",
+    "solution": "Claude CodeがGASコードを自動生成し、CSVを投入するだけでトレンド分析・売上予測・次期アクション提言を含むレポートを自動出力。",
+    "effect": "CSV投入だけでレポート作成が完結し業務が効率化。",
+    "purposes": [
+      "CS・サポート",
+      "RPA・業務自動化",
+      "営業・CRM",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "Google Workspace/GAS"
+    ],
+    "author": "あおい"
+  },
+  {
+    "id": 215,
+    "slug": "system-215",
+    "industry": "金融・保険",
+    "category": "金融・保険",
+    "title": "中小企業の経費精算をClaude CodeとOCRで自動化",
+    "challenge": "レシートの手入力・仕分け・クラウド会計への登録に経理担当者の工数が取られる。",
+    "solution": "TelegramやChatworkにレシート画像を送るだけでClaude CodeがOCR読み取り・自動仕分け・freee/マネーフォワードへのファイルボックス保存まで完結。",
+    "effect": "複数クレカ・銀行口座をまたいだ経費処理を手作業なしで完結。",
+    "purposes": [
+      "経理・バックオフィス",
+      "書類OCR・データ化",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "Claude Code",
+      "freee",
+      "マネーフォワード",
+      "Telegram",
+      "Chatwork/Slack"
+    ],
+    "author": "ゆい"
+  },
+  {
+    "id": 216,
+    "slug": "system-216",
+    "industry": "AIクリエイター・個人",
+    "category": "AIクリエイター・個人",
+    "title": "個人クリエイターがSNS・ブログ集客をAIで自動化",
+    "challenge": "個人では集客・コンテンツ制作・販売対応を同時にこなすのが困難。",
+    "solution": "ObsidianとSNS自動運用ツールを組み合わせ、記事投稿からLINEリスト構築・セミナー集客まで一人で自動運用。",
+    "effect": "販管費を極限まで圧縮しながら高額売上を一人で実現。",
+    "purposes": [
+      "SEO・ブログ",
+      "SNS運用",
+      "クリエイティブ制作",
+      "CS・サポート",
+      "RPA・業務自動化"
+    ],
+    "tools": [
+      "LINE",
+      "Obsidian"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 217,
+    "slug": "system-217",
+    "industry": "人事・管理部門",
+    "category": "人事・管理部門",
+    "title": "管理部門がFAX送信をClaude CodeとクラウドFAXで自動化",
+    "challenge": "見積書や申請書のFAX送信を手作業で行い、送信確認の手間が大きい。",
+    "solution": "Claude CodeがPDFを生成してFAX Plus APIで自動送信し、完了後にLINEやTelegramへ通知するワークフローを自律実行する。",
+    "effect": "FAX・メール・LINEの送信管理を一元化し手作業を削減。",
+    "purposes": [
+      "採用・HR",
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code",
+      "LINE",
+      "Telegram",
+      "クラウドFAX",
+      "MCP連携"
+    ],
+    "author": "あかり"
+  },
+  {
+    "id": 218,
+    "slug": "system-218",
+    "industry": "物流",
+    "category": "物流",
+    "title": "物流業が過去請求書データをもとにClaude Codeで見積予測を自動化",
+    "challenge": "取引先ごとの単価や発注パターンを毎回調べながら見積もりを作る手間がある。",
+    "solution": "過去請求書・単価・数量データをClaude Codeに入力し、CLAUDE.mdに条件を定義することで見積もりドラフトを自律出力させる。",
+    "effect": "過去データから単価レンジと発注予測を自動推論できるように。",
+    "purposes": [
+      "経理・バックオフィス",
+      "CS・サポート",
+      "RPA・業務自動化",
+      "営業・CRM",
+      "工程・在庫・発注管理"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "さき"
+  },
+  {
+    "id": 219,
+    "slug": "system-219",
+    "industry": "行政書士",
+    "category": "行政書士",
+    "title": "行政書士が在留資格申請書類をClaude Codeで自動生成",
+    "challenge": "在留資格申請は国籍・資格カテゴリごとに必要書類が異なり、ヒアリングから書類作成まで手間がかかる。",
+    "solution": "Claude Codeがヒアリングフォーム生成・多言語対応・整合チェック・PDF書類作成・承認フロー判定を一貫して自律実行する。",
+    "effect": "ヒアリングから書類生成・提出フローまでを一気通貫で自動化。",
+    "purposes": [
+      "RPA・業務自動化",
+      "提出書類・申請"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "author": "みお"
+  },
+  {
+    "id": 220,
+    "slug": "system-220",
+    "industry": "コンサル・士業",
+    "category": "コンサル・士業",
+    "title": "コンサル・士業がCRMレポート作成をAIで自動化",
+    "challenge": "SalesforceなどCRMへの案件・カレンダーデータ入力やレポート作成が手作業で負担になっている。",
+    "solution": "外部データをCRMに自動連携し、売上予測・見積もり・ダッシュボードレポートをAIが自動生成する仕組みを構築。",
+    "effect": "人手を介さずレポートが自動作成され、業務負担が大幅に軽減された。",
+    "purposes": [
+      "RPA・業務自動化",
+      "営業・CRM"
+    ],
+    "tools": [
+      "Salesforce"
+    ],
+    "author": "あおい"
+  }
+]

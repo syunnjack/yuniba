@@ -1,0 +1,21 @@
+{
+  "name": "yuniba",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint src scripts",
+    "generate": "node scripts/generate-systems.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "oxlint": "latest"
+  },
+  "devDependencies": {}
+}
